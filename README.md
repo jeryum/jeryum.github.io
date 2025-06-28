@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+<img src="https://i.ibb.co/XxYHM2KQ/IMG-20240824-180412.jpg" width="300"/>
 
 # 👋 Hey there! I'm **Jerome M. Abanda**
 
