@@ -212,3 +212,16 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Technology Stack Icons */
+        .fa-html5 {
+            color: #e34c26;  /* HTML5 orange */
+        }
+
+        .fa-css3-alt {
+            color: #264de4;  /* CSS3 blue */
+        }
+
+        .fa-js {
+            color: #f7df1e;  /* JavaScript yellow */
+        }
