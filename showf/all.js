@@ -66,6 +66,11 @@ document.addEventListener("DOMContentLoaded", function() {
                         link.classList.add(className);
                         link.href = item.url;
                         link.target = "_blank";
+                        
+                        // Add AOS animation to each item
+                        link.setAttribute('data-aos', 'fade-up');
+                        link.setAttribute('data-aos-delay', (index * 100).toString());
+                        link.setAttribute('data-aos-duration', '800');
 
                         const coverImg = document.createElement("img");
                         coverImg.classList.add("cover");
@@ -91,6 +96,11 @@ document.addEventListener("DOMContentLoaded", function() {
                         console.error(`Error adding item ${index} to ${id}:`, err);
                     }
                 });
+                
+                // Refresh AOS after adding new content
+                if (typeof AOS !== 'undefined') {
+                    AOS.refresh();
+                }
             });
         })
         .catch(error => {
