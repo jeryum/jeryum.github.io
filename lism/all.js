@@ -21,6 +21,13 @@ function hide(element) {
     }, 300);
 }
 
+function updateCount(dataKey, count) {
+    const countElement = document.querySelector('.count');
+    if (countElement) {
+        countElement.textContent = `${count} lists`;
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     const sections = [
         { id: "anime", dataKey: "anime", className: "anime" },
@@ -59,6 +66,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.log(`No valid data found for ${dataKey}:`, sectionData);
                     return;
                 }
+
+                // Update the count for this section
+                updateCount(dataKey, sectionData.length);
 
                 sectionData.forEach((item, index) => {
                     try {
