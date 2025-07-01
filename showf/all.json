@@ -519,7 +519,20 @@
     }
 ],
 
-
+"manhwa": [
+    {
+      "title": "Some Kind of Cadwallader",
+      "url": "https://open.spotify.com/album/2klOc1iTp6cm8E98eYZwxn",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1f/e9/65/1fe965e0-5571-cf60-ac97-17a4dfcbd7f0/5711.jpg/592x592bb.webp",
+      "release": "May 24, 2008"
+    },
+    {
+      "title": "American Football",
+      "url": "https://open.spotify.com/album/70OkRXiiwdTCtZ9YiPBzPp",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/fc/53/17fc5379-78f6-a661-369b-4fa27875de78/644110002563.png/592x592bb.webp",
+      "release": "September 14, 1999"
+    }
+  ],
 
 
 
@@ -538,8 +551,103 @@
       "release": "September 14, 1999"
     }
   ],
-
-
+  
+  
+  
+  
+  
+  
+  
+"manga": [
+      {"title": "Moriarty the Patriot", "url": "https://myanimelist.net/manga/97914/Yuukoku_no_Moriarty", "cover": "https://cdn.myanimelist.net/images/manga/3/198716.jpg", "release": "2016"},
+        {"title": "Kaiju No. 8", "url": "https://myanimelist.net/manga/121496/Kaijuu_8-gou", "cover": "https://cdn.myanimelist.net/images/manga/2/224779.jpg", "release": "2020"},
+        {"title": "Blue Lock", "url": "https://myanimelist.net/manga/114844/Blue_Lock", "cover": "https://cdn.myanimelist.net/images/manga/2/210764.jpg", "release": "2018"},
+        {"title": "Bleach", "url": "https://myanimelist.net/manga/13/Bleach", "cover": "https://cdn.myanimelist.net/images/manga/3/249070.jpg", "release": "2001"},
+        {"title": "Vinland Saga", "url": "https://myanimelist.net/manga/642/Vinland_Saga", "cover": "https://cdn.myanimelist.net/images/manga/2/188925.jpg", "release": "2005"},
+        {"title": "Jujutsu Kaisen", "url": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen", "cover": "https://cdn.myanimelist.net/images/manga/2/221182.jpg", "release": "2018"},
+        {"title": "Chainsaw Man", "url": "https://myanimelist.net/manga/116778/Chainsaw_Man", "cover": "https://cdn.myanimelist.net/images/manga/3/222998.jpg", "release": "2018"},
+        {"title": "Ragnarok", "url": "https://myanimelist.net/manga/1048/Shinwa_Kourin_Ragnarok", "cover": "https://cdn.myanimelist.net/images/manga/3/181349.jpg", "release": "1995"},
+        {"title": "No Longer Human", "url": "https://myanimelist.net/manga/3004/Ningen_Shikkaku", "cover": "https://cdn.myanimelist.net/images/manga/2/180931.jpg", "release": "1972"},
+        {"title": "Ichi the Killer", "url": "https://myanimelist.net/manga/1049/Koroshiya_Ichi", "cover": "https://cdn.myanimelist.net/images/manga/3/181350.jpg", "release": "1998"},
+        {"title": "Kagurabachi", "url": "https://myanimelist.net/manga/145862/Kagurabachi", "cover": "https://cdn.myanimelist.net/images/manga/3/258710.jpg", "release": "2023"},
+        {"title": "Dead Dead Demon's Dededede Destruction", "url": "https://myanimelist.net/manga/75907/Dead_Dead_Demons_Dededede_Destruction", "cover": "https://cdn.myanimelist.net/images/manga/1/163933.jpg", "release": "2014"},
+        {"title": "Sakamoto Days", "url": "https://myanimelist.net/manga/124771/Sakamoto_Days", "cover": "https://cdn.myanimelist.net/images/manga/3/227579.jpg", "release": "2020"},
+        {"title": "One Punch Man", "url": "https://myanimelist.net/manga/44347/One_Punch-Man", "cover": "https://cdn.myanimelist.net/images/manga/2/200266.jpg", "release": "2012"},
+        {"title": "Mashle", "url": "https://myanimelist.net/manga/126455/Mashle", "cover": "https://cdn.myanimelist.net/images/manga/3/235596.jpg", "release": "2020"},
+         {"title": "The Flowers of Evil", "url": "https://myanimelist.net/manga/24645/Aku_no_Hana", "cover": "https://cdn.myanimelist.net/images/manga/1/54407.jpg", "release": "2009"},
+        {"title": "Astro Royale", "url": "https://myanimelist.net/manga/16049/Astro_Royale", "cover": "https://cdn.myanimelist.net/images/manga/2/147931.jpg", "release": "2008"},
+        {"title": "Tomie", "url": "https://myanimelist.net/manga/778/Tomie", "cover": "https://cdn.myanimelist.net/images/manga/1/181394.jpg", "release": "1987"},
+        {"title": "Blue Heaven", "url": "https://myanimelist.net/manga/1063/Blue_Heaven", "cover": "https://cdn.myanimelist.net/images/manga/3/181353.jpg", "release": "1992"},
+        {"title": "Gyo", "url": "https://myanimelist.net/manga/781/Gyo", "cover": "https://cdn.myanimelist.net/images/manga/1/181395.jpg", "release": "2001"},
+        {"title": "Himizu", "url": "https://myanimelist.net/manga/1064/Himizu", "cover": "https://cdn.myanimelist.net/images/manga/1/181354.jpg", "release": "1992"},
+        {"title": "A Girl on the Shore", "url": "https://myanimelist.net/manga/3005/Umibe_no_Onnanoko", "cover": "https://cdn.myanimelist.net/images/manga/2/181357.jpg", "release": "2009"},
+        {"title": "Glaucos", "url": "https://myanimelist.net/manga/1065/Glaucos", "cover": "https://cdn.myanimelist.net/images/manga/1/181358.jpg", "release": "1993"},
+        {"title": "Me and the Devil Blues", "url": "https://myanimelist.net/manga/3419/Me_and_the_Devil_Blues", "cover": "https://cdn.myanimelist.net/images/manga/2/181359.jpg", "release": "2005"},
+        {"title": "Shiver", "url": "https://myanimelist.net/manga/3006/Shiver", "cover": "https://cdn.myanimelist.net/images/manga/2/181360.jpg", "release": "2009"},
+        {"title": "Love Sickness", "url": "https://myanimelist.net/manga/3007/Love_Sickness", "cover": "https://cdn.myanimelist.net/images/manga/2/181361.jpg", "release": "2011"},
+        {"title": "Frankenstein", "url": "https://myanimelist.net/manga/3008/Frankenstein", "cover": "https://cdn.myanimelist.net/images/manga/2/181362.jpg", "release": "2011"},
+        {"title": "Downfall", "url": "https://myanimelist.net/manga/3009/Downfall", "cover": "https://cdn.myanimelist.net/images/manga/2/181363.jpg", "release": "2011"},
+        {"title": "Venus in the Blind Spot", "url": "https://myanimelist.net/manga/3010/Venus_in_the_Blind_Spot", "cover": "https://cdn.myanimelist.net/images/manga/2/181364.jpg", "release": "2011"},
+        {"title": "Remina", "url": "https://myanimelist.net/manga/3011/Remina", "cover": "https://cdn.myanimelist.net/images/manga/2/181365.jpg", "release": "2011"},
+        {"title": "Black Paradox", "url": "https://myanimelist.net/manga/3012/Black_Paradox", "cover": "https://cdn.myanimelist.net/images/manga/2/181366.jpg", "release": "2011"},
+        {"title": "Fragments of Horror", "url": "https://myanimelist.net/manga/3013/Fragments_of_Horror", "cover": "https://cdn.myanimelist.net/images/manga/2/181367.jpg", "release": "2011"},
+        {"title": "Sensor", "url": "https://myanimelist.net/manga/3014/Sensor", "cover": "https://cdn.myanimelist.net/images/manga/2/181368.jpg", "release": "2011"},
+        {"title": "Dissolving Classroom", "url": "https://myanimelist.net/manga/3015/Dissolving_Classroom", "cover": "https://cdn.myanimelist.net/images/manga/2/181369.jpg", "release": "2011"},
+              {"title": "Takopii no Genzai", "url": "https://myanimelist.net/manga/131668/Takopii_no_Genzai", "cover": "https://cdn.myanimelist.net/images/manga/3/238444.jpg", "release": "2021"},
+        {"title": "Girls' Last Tour", "url": "https://myanimelist.net/manga/86745/Shoujo_Shuumatsu_Ryokou", "cover": "https://cdn.myanimelist.net/images/manga/1/188482.jpg", "release": "2014"},
+        {"title": "20th Century Boys", "url": "https://myanimelist.net/manga/103/20th_Century_Boys", "cover": "https://cdn.myanimelist.net/images/manga/2/185522.jpg", "release": "1999"},
+        {"title": "Abara", "url": "https://myanimelist.net/manga/1047/Abara", "cover": "https://cdn.myanimelist.net/images/manga/3/181347.jpg", "release": "2005"},
+        {"title": "Adam & Eve", "url": "https://myanimelist.net/manga/1046/Adam___Eve", "cover": "https://cdn.myanimelist.net/images/manga/2/181348.jpg", "release": "2005"},
+        {"title": "Ajin", "url": "https://myanimelist.net/manga/43179/Ajin", "cover": "https://cdn.myanimelist.net/images/manga/1/149538.jpg", "release": "2012"},
+        {"title": "All You Need Is Kill", "url": "https://myanimelist.net/manga/18849/All_You_Need_Is_Kill", "cover": "https://cdn.myanimelist.net/images/manga/1/171645.jpg", "release": "2014"},
+        {"title": "Boku-tachi ga Yarimashita", "url": "https://myanimelist.net/manga/1045/Boku-tachi_ga_Yarimashita", "cover": "https://cdn.myanimelist.net/images/manga/2/181346.jpg", "release": "2005"},
+        {"title": "Boruto", "url": "https://myanimelist.net/manga/86337/Boruto", "cover": "https://cdn.myanimelist.net/images/manga/2/188483.jpg", "release": "2016"},
+        {"title": "Boys Abyss", "url": "https://myanimelist.net/manga/124773/Shounen_no_Abyss", "cover": "https://cdn.myanimelist.net/images/manga/3/227581.jpg", "release": "2020"},
+        {"title": "Chi no Wadachi", "url": "https://myanimelist.net/manga/114410/Chi_no_Wadachi", "cover": "https://cdn.myanimelist.net/images/manga/2/209763.jpg", "release": "2017"},
+        {"title": "City of Light", "url": "https://myanimelist.net/manga/1044/City_of_Light", "cover": "https://cdn.myanimelist.net/images/manga/2/181345.jpg", "release": "2005"},
+        {"title": "Doujin Gunkan", "url": "https://myanimelist.net/manga/1043/Doujin_Gunkan", "cover": "https://cdn.myanimelist.net/images/manga/2/181344.jpg", "release": "2005"},
+        {"title": "Fire Punch", "url": "https://myanimelist.net/manga/104178/Fire_Punch", "cover": "https://cdn.myanimelist.net/images/manga/2/192131.jpg", "release": "2016"},
+               {"title": "Furitsumore Kodoku na Shi yo", "url": "https://myanimelist.net/manga/1042/Furitsumore_Kodoku_na_Shi_yo", "cover": "https://cdn.myanimelist.net/images/manga/2/181343.jpg", "release": "2005"},
+        {"title": "Goodnight Punpun", "url": "https://myanimelist.net/manga/6953/Oyasumi_Punpun", "cover": "https://cdn.myanimelist.net/images/manga/2/180923.jpg", "release": "2007"},
+        {"title": "Green Blood", "url": "https://myanimelist.net/manga/1041/Green_Blood", "cover": "https://cdn.myanimelist.net/images/manga/2/181342.jpg", "release": "2005"},
+        {"title": "Grimace", "url": "https://myanimelist.net/manga/1040/Grimace", "cover": "https://cdn.myanimelist.net/images/manga/2/181341.jpg", "release": "2005"},
+        {"title": "Gyakusatsu Happy End", "url": "https://myanimelist.net/manga/1039/Gyakusatsu_Happy_End", "cover": "https://cdn.myanimelist.net/images/manga/2/181340.jpg", "release": "2005"},
+        {"title": "Hell's Paradise", "url": "https://myanimelist.net/manga/1038/Jigokuraku", "cover": "https://cdn.myanimelist.net/images/manga/2/181339.jpg", "release": "2018"},
+        {"title": "Homunculus", "url": "https://myanimelist.net/manga/1037/Homunculus", "cover": "https://cdn.myanimelist.net/images/manga/2/181338.jpg", "release": "2003"},
+        {"title": "Hellsing", "url": "https://myanimelist.net/manga/92/Hellsing", "cover": "https://cdn.myanimelist.net/images/manga/1/185784.jpg", "release": "1997"},
+        {"title": "Hotror Anthology Comic Shikaku", "url": "https://myanimelist.net/manga/1036/Hotror_Anthology_Comic_Shikaku", "cover": "https://cdn.myanimelist.net/images/manga/2/181337.jpg", "release": "2005"},
+        {"title": "I Am a Hero", "url": "https://myanimelist.net/manga/1035/I_Am_a_Hero", "cover": "https://cdn.myanimelist.net/images/manga/2/181336.jpg", "release": "2009"},
+        {"title": "Insect Princess", "url": "https://myanimelist.net/manga/1034/Insect_Princess", "cover": "https://cdn.myanimelist.net/images/manga/2/181335.jpg", "release": "2005"},
+        {"title": "Jagaaan", "url": "https://myanimelist.net/manga/1033/Jagaaan", "cover": "https://cdn.myanimelist.net/images/manga/2/181334.jpg", "release": "2017"},
+        {"title": "Jujutsu Kaisen", "url": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen", "cover": "https://cdn.myanimelist.net/images/manga/2/221182.jpg", "release": "2018"},
+        {"title": "Kami no Kodomo", "url": "https://myanimelist.net/manga/1032/Kami_no_Kodomo", "cover": "https://cdn.myanimelist.net/images/manga/2/181333.jpg", "release": "2005"},
+        {"title": "Kami-sama ga Uso o Tsuku.", "url": "https://myanimelist.net/manga/1031/Kami-sama_ga_Uso_o_Tsuku", "cover": "https://cdn.myanimelist.net/images/manga/2/181332.jpg", "release": "2005"},
+        {"title": "Kanata no Astra", "url": "https://myanimelist.net/manga/1030/Kanata_no_Astra", "cover": "https://cdn.myanimelist.net/images/manga/2/181331.jpg", "release": "2016"},
+        {"title": "The Climber", "url": "https://myanimelist.net/manga/1029/Kokou_no_Hito", "cover": "https://cdn.myanimelist.net/images/manga/2/181330.jpg", "release": "2007"},
+        {"title": "Litchi Hikari Club", "url": "https://myanimelist.net/manga/1028/Litchi_Hikari_Club", "cover": "https://cdn.myanimelist.net/images/manga/2/181329.jpg", "release": "2005"},
+        {"title": "Mimi's Tales of Horror", "url": "https://myanimelist.net/manga/1027/Mimi_no_Kaidan", "cover": "https://cdn.myanimelist.net/images/manga/2/181328.jpg", "release": "2005"},
+        {"title": "Monster", "url": "https://myanimelist.net/manga/1/Monster", "cover": "https://cdn.myanimelist.net/images/manga/3/54525.jpg", "release": "1994"},
+        {"title": "My Dearest Self with Malice Aforethought", "url": "https://myanimelist.net/manga/1026/Itoshi_no_Muramasa", "cover": "https://cdn.myanimelist.net/images/manga/2/181327.jpg", "release": "2017"},
+        {"title": "Nijigahara Holograph", "url": "https://myanimelist.net/manga/3003/Nijigahara_Holograph", "cover": "https://cdn.myanimelist.net/images/manga/2/181356.jpg", "release": "2006"},
+        {"title": "Noah of the Blood Sea", "url": "https://myanimelist.net/manga/1025/Noah_of_the_Blood_Sea", "cover": "https://cdn.myanimelist.net/images/manga/2/181326.jpg", "release": "2005"},
+           {"title": "Puppet", "url": "https://myanimelist.net/manga/1024/Puppet", "cover": "https://cdn.myanimelist.net/images/manga/2/181325.jpg", "release": "2005"},
+        {"title": "Samurai Champloo", "url": "https://myanimelist.net/manga/1023/Samurai_Champloo", "cover": "https://cdn.myanimelist.net/images/manga/2/181324.jpg", "release": "2004"},
+        {"title": "Solanin", "url": "https://myanimelist.net/manga/2166/Solanin", "cover": "https://cdn.myanimelist.net/images/manga/2/181355.jpg", "release": "2005"},
+        {"title": "Soloist in the Prison", "url": "https://myanimelist.net/manga/1022/Soloist_in_the_Prison", "cover": "https://cdn.myanimelist.net/images/manga/2/181323.jpg", "release": "2005"},
+        {"title": "The Breaker", "url": "https://myanimelist.net/manga/13209/The_Breaker", "cover": "https://cdn.myanimelist.net/images/manga/2/186076.jpg", "release": "2007"},
+        {"title": "Three Days of Happiness", "url": "https://myanimelist.net/manga/1021/Mikkakan_no_Koufuku", "cover": "https://cdn.myanimelist.net/images/manga/2/181322.jpg", "release": "2013"},
+        {"title": "Tokyo Ghoul", "url": "https://myanimelist.net/manga/33327/Tokyo_Ghoul", "cover": "https://cdn.myanimelist.net/images/manga/3/114037.jpg", "release": "2011"},
+        {"title": "Tomodachi Game", "url": "https://myanimelist.net/manga/1020/Tomodachi_Game", "cover": "https://cdn.myanimelist.net/images/manga/2/181321.jpg", "release": "2013"},
+        {"title": "Vagabond", "url": "https://myanimelist.net/manga/656/Vagabond", "cover": "https://cdn.myanimelist.net/images/manga/2/181787.jpg", "release": "1998"},
+        {"title": "Versus", "url": "https://myanimelist.net/manga/1019/Versus", "cover": "https://cdn.myanimelist.net/images/manga/2/181320.jpg", "release": "2013"},
+        {"title": "Reiraku", "url": "https://myanimelist.net/manga/1018/Reiraku", "cover": "https://cdn.myanimelist.net/images/manga/2/181319.jpg", "release": "2013"},
+        {"title": "Look Back", "url": "https://myanimelist.net/manga/124553/Look_Back", "cover": "https://cdn.myanimelist.net/images/manga/3/235860.jpg", "release": "2021"},
+        {"title": "Goodbye, Eri", "url": "https://myanimelist.net/manga/1017/Goodbye_Eri", "cover": "https://cdn.myanimelist.net/images/manga/2/181318.jpg", "release": "2022"},
+        {"title": "Layers of Fear", "url": "https://myanimelist.net/manga/1016/Layers_of_Fear", "cover": "https://cdn.myanimelist.net/images/manga/2/181317.jpg", "release": "2013"},
+        {"title": "Hideout", "url": "https://myanimelist.net/manga/1015/Hideout", "cover": "https://cdn.myanimelist.net/images/manga/2/181316.jpg", "release": "2011"},
+        {"title": "Rohan at the Louvre", "url": "https://myanimelist.net/manga/1014/Rohan_au_Louvre", "cover": "https://cdn.myanimelist.net/images/manga/2/181315.jpg", "release": "2010"},
+        {"title": "The Boy Who Collected the Stars", "url": "https://myanimelist.net/manga/1013/Hoshi_o_Hirotta_Otoko", "cover": "https://cdn.myanimelist.net/images/manga/2/181314.jpg", "release": "2009"}
+],
 
 
 
@@ -584,7 +692,6 @@
         "release": "April 3, 2012"
     }
 ],
-
 
 
 
