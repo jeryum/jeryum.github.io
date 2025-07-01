@@ -1,0 +1,97 @@
+{
+  "anime": [
+    {
+      "title": "Puss in Boots",
+      "url": "https://m.imdb.com/title/tt0448694",
+      "cover": "https://i.ibb.co/nmYLnmR/cover.jpg",
+      "release": "October 23, 2011"
+    },
+    {
+      "title": "Avatar",
+      "url": "https://m.imdb.com/title/tt0499549",
+      "cover": "https://i.ibb.co/W0h3s3T/cover.jpg",
+      "release": "December 10, 2009"
+    }
+  ],
+
+  "game": [
+    {
+      "title": "Minecraft",
+      "url": "https://m.imdb.com/title/tt2011970",
+      "cover": "https://i.ibb.co/3srzyQr/cover.jpg",
+      "release": "May 17, 2009"
+    },
+    {
+      "title": "Demon's Souls",
+      "url": "https://m.imdb.com/title/tt1537739",
+      "cover": "https://i.ibb.co/C6tNZX9/cover.jpg",
+      "release": "February 5, 2009"
+    }
+  ],
+
+  "music": [
+    {
+      "title": "Some Kind of Cadwallader",
+      "url": "https://open.spotify.com/album/2klOc1iTp6cm8E98eYZwxn",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1f/e9/65/1fe965e0-5571-cf60-ac97-17a4dfcbd7f0/5711.jpg/592x592bb.webp",
+      "release": "May 24, 2008"
+    },
+    {
+      "title": "American Football",
+      "url": "https://open.spotify.com/album/70OkRXiiwdTCtZ9YiPBzPp",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/fc/53/17fc5379-78f6-a661-369b-4fa27875de78/644110002563.png/592x592bb.webp",
+      "release": "September 14, 1999"
+    }
+  ],
+
+  "channel": [
+    {
+      "title": "Slaying The Dragon",
+      "url": "https://www.youtube.com/@slayingthedragon",
+      "cover": "https://yt3.googleusercontent.com/rn6FdUja6V224On4xyuSgcUrQyTPAHaUBA3MQmLr-ChvxSGeCmdGTvkZvJXjvgO-uZc1cxqS=s500-c-k-c0x00ffffff-no-rj",
+      "release": "July 9, 2022"
+    },
+    {
+      "title": "Aperture",
+      "url": "https://www.youtube.com/@ApertureThinking",
+      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mhd3RmfiJf5zWwaPpmuJ2sG2-vu0Zy7Apo7J0-HbNG7dE=s500-c-k-c0x00ffffff-no-rj",
+      "release": "July 1, 2017"
+    },
+    {
+      "title": "Fooster",
+      "url": "https://www.youtube.com/@thefoosterchannel",
+      "cover": "https://yt3.googleusercontent.com/tbJyCVt4lBCrtl5lEliPQJXH_uDmwy_NZG83fT_d4HRh-ZCN6X1xH7Bj6TX8BNK-5MyPed8V_g=s500-c-k-c0x00ffffff-no-rj",
+      "release": "March 7, 2014"
+    },
+    {
+      "title": "Disrupt",
+      "url": "https://www.youtube.com/@DisruptReality",
+      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mqv-i4_VYU8FsyeuCi8hvt0Nb3Ehw6pOJ1FwkMLwTGbt0=s500-c-k-c0x00ffffff-no-rj",
+      "release": "April 3, 2012"
+    },
+    {
+      "title": "LEMMiNO",
+      "url": "https://www.youtube.com/@LEMMiNO",
+      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_n9UULHnAEc-yMg6URdgtNDvUqeu-SXR3WMV2ObydPnLg=s500-c-k-c0x00ffffff-no-rj",
+      "release": "February 15, 2012"
+    },
+    {
+      "title": "PewDiePie",
+      "url": "https://www.youtube.com/@PewDiePie",
+      "cover": "https://yt3.googleusercontent.com/5oUY3tashyxfqsjO5SGhjT4dus8FkN9CsAHwXWISFrdPYii1FudD4ICtLfuCw6-THJsJbgoY=s500-c-k-c0x00ffffff-no-rj",
+      "release": "April 29, 2010"
+    },
+    {
+      "title": "theRadBrad",
+      "url": "https://www.youtube.com/@theRadBrad",
+      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mB2XqhYowgU8pm8h56dmkzJoCmha9FE7Op_tYZZ8WqkK4=s500-c-k-c0x00ffffff-no-rj",
+      "release": "November 27, 2006"
+    },
+    {
+      "title": "melodysheep",
+      "url": "https://www.youtube.com/@melodysheep",
+      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_klHVaP6_ZcnT8VyPFedRHgJOPOym_tLSxoFCL0KJSZL1k=s500-c-k-c0x00ffffff-no-rj",
+      "release": "June 25, 2006"
+    }
+  ]
+}

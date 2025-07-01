@@ -1,0 +1,268 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--1);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: 1.6rem;
+    padding: 1.6rem;
+    background: var(--2);
+    border-radius: 0.6rem;
+}
+
+.pfp {
+    width: 10rem;
+    background: var(--3);
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+}
+
+.top-right {
+    display: flex;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    gap: 1rem;
+}
+
+.option {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    background: var(--3);
+    border-radius: 0.6rem;
+    opacity: 0;
+}
+
+.set {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-2);
+    padding: 1.4rem 1.8rem 1.4rem 1.4rem;
+    border-radius: 0.6rem;
+    font: 1.6rem 'Arial', sans-serif;
+}
+
+.set:hover {
+    color: var(--text-1);
+    background: var(--4);
+}
+
+.set > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.name {
+    color: var(--text-1);
+    margin: 1rem 0 0;
+    font: 600 2rem 'Arial', sans-serif;
+}
+
+.bio {
+    width: 80%;
+    color: var(--text-2);
+    margin: 1rem 0 0;
+    font: 1.6rem 'Arial', sans-serif;
+}
+
+.count {
+    color: var(--text-2);
+    margin: 1rem 0 0;
+    font: 1.6rem 'Arial', sans-serif;
+}
+
+.count::first-letter {
+    color: var(--text-1);
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0 0;
+}
+
+.link,
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    color: var(--text-2);
+    background: var(--3);
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    font-size: 1.6rem;
+}
+
+.link:hover,
+.circle:hover {
+    color: var(--text-1);
+    background: var(--4);
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+    margin: 0 1.6rem 1.6rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1px;
+    padding: 1.6rem 1.6rem 1.4rem;
+    background: var(--2);
+    aspect-ratio: 1 / 1;
+    border-radius: 0.6rem;
+}
+
+.list:hover {
+    background: var(--3);
+}
+
+.list:hover > i,
+.list:hover > .list-title {
+    color: var(--text-1);
+}
+
+.list > i {
+    color: var(--text-2);
+    font-size: 1.6rem;
+}
+
+.list-title {
+    color: var(--text-2);
+    font: 1.6rem 'Arial', sans-serif;
+}
+
+.this {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+    padding: 0 1.6rem 1.6rem;
+}
+
+.this > a {
+    min-width: 0;
+}
+
+.cover {
+    width: 100%;
+    background: var(--2);
+    border-radius: 0.6rem;
+    object-fit: cover;
+}
+
+.cover:hover {
+    filter: brightness(60%);
+}
+
+.anime > .cover {
+    aspect-ratio: 46 / 65;
+}
+
+.movie > .cover,
+.game > .cover {
+    aspect-ratio: 2 / 3;
+}
+
+.music > .cover,
+.channel > .cover {
+    aspect-ratio: 1 / 1;
+}
+
+.title {
+    display: -webkit-box;
+    color: var(--text-1);
+    padding: 0.4rem 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font: 1.2rem 'Arial', sans-serif;
+}
+
+.release {
+    color: var(--text-2);
+    margin: 0.4rem 0 0;
+    font: 1.2rem 'Arial', sans-serif;
+}
+
+.unavailable {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100dvh;
+    padding: 0 16rem;
+}
+
+.unavailable > p {
+    color: var(--text-2);
+    max-width: 620px;
+    font: 2.6rem 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    transition: 0.3s;
+    user-select: none;
+}
+
+@media (max-width: 380px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 340px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 480px) {
+    .unavailable {
+        display: flex;
+    }
+    .profile, #list, .this {
+        display: none;
+    }
+}
+
+:root {
+    --1: #151515;
+    --2: #202020;
+    --3: #303030;
+    --4: #404040;
+    --text-1: #FFFFFF;
+    --text-2: #AAAAAA;
+}

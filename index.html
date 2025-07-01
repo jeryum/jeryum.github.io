@@ -6,6 +6,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
    <link rel="stylesheet" href="styles.css">
+   <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -14,11 +16,11 @@
         <header>
             <img src="https://i.ibb.co/Jj4RmLLV/IMG-20240116-214053-200.jpg" alt="Your Name" class="profile-img">
             <h1>Jerome M Abanda</h1>
-            <p class="bio">
+            <p class="bio" data-aos="fade-right" data-aos-delay="150" >
                 i dont know.
               
             </p>
-            <div class="social-links">
+            <div class="social-links" data-aos="fade-left" data-aos-delay="150" >
                 <a href="https://github.com/hexcZzz" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://gitlab.com/YOUR_GITLAB_USERNAME" target="_blank"><i class="fab fa-gitlab"></i></a>
                 <a href="https://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -34,20 +36,19 @@
             <div class="projects-grid">
                 
                  <div class="project-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJOvSqPXhLEw2CPFnaDSasEGzZMBsAPNJcz797wUzLffqgiXGeuzZNjea&s=10" alt="Project 0" class="project-img">
-                    <div class="project-info">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJOvSqPXhLEw2CPFnaDSasEGzZMBsAPNJcz797wUzLffqgiXGeuzZNjea&s=10" alt="Project 0" class="project-img"><div class="project-info" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
                         <h3 class="project-title">passy</h3>
                         <p class="project-desc">
                             simple password manager with many features using enc to encrypt pass<i class="fab fa-python"></i>
                         </p>
                         <div class="project-links">
                             <a href="#" target="_blank">Live Demo</a>
-                            <a href="#" target="_blank">Source Code</a>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-borLrMGtB7IPkxEz6vcfLgJqD9AuHvd6eWG4MhD9Y-uGJW1OtLW1yM1&s=10" alt="Project 1" class="project-img">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-borLrMGtB7IPkxEz6vcfLgJqD9AuHvd6eWG4MhD9Y-uGJW1OtLW1yM1&s=10" alt="Project 1" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">showoff</h3>
                         <p class="project-desc">
@@ -57,12 +58,12 @@
                         </p>
                         <div class="project-links">
                             <a href="#" target="_blank">Live Demo</a>
-                            <a href="#" target="_blank">Source Code</a>
+                            
                         </div>
                     </div>
                 </div>
                 
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUE18lmPrVAdWgesyk6MKfw5l4_Kqi1dq4-lFxX7Kcw5JJHV6mD-zVvwx&s=10" alt="Project 2" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">elow</h3>
@@ -71,14 +72,14 @@
                         </p>
                         <div class="project-links">
                             <a href="#" target="_blank">Live Demo</a>
-                            <a href="#" target="_blank">Source Code</a>
+                            
                         </div>
                     </div>
                 </div>
                 
                 
                 
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTOnFYmto9UYU7fvbr4a45r9nHrCy68HsWg&s" alt="project-img" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">portfolio 2</h3>
@@ -87,7 +88,7 @@
                         </p>
                         <div class="project-links">
                             <a href="#" target="_blank">Live Demo</a>
-                            <a href="#" target="_blank">Source Code</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -97,7 +98,11 @@
 
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-   
+   <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
  <script src="script.js"></script>
 </body>
 </html>
