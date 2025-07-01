@@ -157,17 +157,23 @@ body {
 
 .this {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     padding: 0 1.6rem 1.6rem;
+    width: 100%;
+    min-height: 100px;
 }
 
 .this > a {
     min-width: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 
 .cover {
     width: 100%;
+    height: auto;
     background: var(--2);
     border-radius: 0.6rem;
     object-fit: cover;
@@ -182,7 +188,8 @@ body {
 }
 
 .movie > .cover,
-.game > .cover {
+.game > .cover,
+.books > .cover {
     aspect-ratio: 2 / 3;
 }
 
@@ -249,20 +256,23 @@ a {
     }
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .unavailable {
-        display: flex;
+        display: none !important;
     }
-    .profile, #list, .this {
-        display: none;
+    
+    .this {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 0 1rem 1rem;
     }
 }
 
 :root {
-    --1: #151515;
-    --2: #202020;
-    --3: #303030;
-    --4: #404040;
-    --text-1: #FFFFFF;
-    --text-2: #AAAAAA;
+    --1: #000000;
+    --2: #1a1a1a;
+    --3: #333333;
+    --4: #4d4d4d;
+    --text-1: #ffffff;
+    --text-2: #808080;
 }

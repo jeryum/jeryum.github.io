@@ -1,6 +1,21 @@
 {
   "anime": [
     {
+      "title": "Attack on Titan",
+      "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+      "cover": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      "release": "April 7, 2013"
+    },
+    {
+      "title": "Death Note",
+      "url": "https://myanimelist.net/anime/1535/Death_Note",
+      "cover": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+      "release": "October 4, 2006"
+    }
+  ],
+
+  "movie": [
+    {
       "title": "Puss in Boots",
       "url": "https://m.imdb.com/title/tt0448694",
       "cover": "https://i.ibb.co/nmYLnmR/cover.jpg",
@@ -92,6 +107,21 @@
       "url": "https://www.youtube.com/@melodysheep",
       "cover": "https://yt3.googleusercontent.com/ytc/AIdro_klHVaP6_ZcnT8VyPFedRHgJOPOym_tLSxoFCL0KJSZL1k=s500-c-k-c0x00ffffff-no-rj",
       "release": "June 25, 2006"
+    }
+  ],
+
+  "books": [
+    {
+      "title": "1984",
+      "url": "https://www.goodreads.com/book/show/40961427-1984",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1532714506i/40961427.jpg",
+      "release": "June 8, 1949"
+    },
+    {
+      "title": "The Hobbit",
+      "url": "https://www.goodreads.com/book/show/5907.The_Hobbit",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "release": "September 21, 1937"
     }
   ]
 }
