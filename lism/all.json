@@ -518,17 +518,431 @@
 ],
 
 "manhwa": [
-    {
-      "title": "Some Kind of Cadwallader",
-      "url": "https://open.spotify.com/album/2klOc1iTp6cm8E98eYZwxn",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1f/e9/65/1fe965e0-5571-cf60-ac97-17a4dfcbd7f0/5711.jpg/592x592bb.webp",
-      "release": "May 24, 2008"
+        {
+        "title": "Mercenary Enrollment",
+        "url": "https://www.webtoons.com/en/action/teenage-mercenary/list?title_no=3181",
+        "cover": "https://swebtoon-phinf.pstatic.net/20210126_148/1611626420444yQq1F_JPEG/thumbnail_ipad.jpg",
+        "release": "2021"
     },
     {
-      "title": "American Football",
-      "url": "https://open.spotify.com/album/70OkRXiiwdTCtZ9YiPBzPp",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/fc/53/17fc5379-78f6-a661-369b-4fa27875de78/644110002563.png/592x592bb.webp",
-      "release": "September 14, 1999"
+        "title": "Absolute Regression",
+        "url": "https://www.webtoons.com/en/fantasy/absolute-regression/list?title_no=5012",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230214_281/1676331247375yFc5k_JPEG/0AbsoluteRegression_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Revenge of the Iron-Blooded Sword Hound",
+        "url": "https://www.webtoons.com/en/action/revenge-of-the-iron-blooded-sword-hound/list?title_no=4982",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_90/1675136443434o0q0J_JPEG/0Iron-BloodedSwordHound_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Killer Peter",
+        "url": "https://www.webtoons.com/en/thriller/killer-peter/list?title_no=4594",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220816_10/1660618430405D0Q4B_JPEG/3KillerPeter_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Wind Breaker",
+        "url": "https://www.webtoons.com/en/action/wind-breaker/list?title_no=2088",
+        "cover": "https://swebtoon-phinf.pstatic.net/20210601_45/1622513512635qQYwR_JPEG/0WindBreaker_mobile_landingpage.jpg",
+        "release": "2021"
+    },
+    {
+        "title": "Bad Blood",
+        "url": "https://www.webtoons.com/en/action/bad-blood/list?title_no=2949",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0BadBlood_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Return from the Abyss",
+        "url": "https://www.webtoons.com/en/fantasy/return-from-the-abyss/list?title_no=4485",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0ReturnfromtheAbyss_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Lookism",
+        "url": "https://www.webtoons.com/en/drama/lookism/list?title_no=1049",
+        "cover": "https://swebtoon-phinf.pstatic.net/20221103_217/1667426440841mJ7w2_JPEG/0Lookism_mobile_landingpage.jpg",
+        "release": "2014"
+    },
+    {
+        "title": "Eleceed",
+        "url": "https://www.webtoons.com/en/action/eleceed/list?title_no=1571",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_280/1605589417893wqXy1_JPEG/0Eleceed_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Childhood Friend of Zenith",
+        "url": "# (Check Asura Scans or Reaper Scans)",
+        "cover": "https://i.imgur.com/placeholder_zenith.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "The Heavenly Demon Can't Live a Normal Life",
+        "url": "https://www.webtoons.com/en/fantasy/the-heavenly-demon-cant-live-a-normal-life/list?title_no=4979",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0HeavenlyDemon_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Pick Me Up",
+        "url": "https://www.webtoons.com/en/fantasy/pick-me-up/list?title_no=4732",
+        "cover": "https://swebtoon-phinf.pstatic.net/20221018_272/1666060090544n3b4p_JPEG/0PickMeUp_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Merciless",
+        "url": "https://www.webtoons.com/en/action/merciless/list?title_no=4325",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220412_17/1649728587779f5lQr_JPEG/0Merciless_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Why I Quit Being the Demon King",
+        "url": "https://www.webtoons.com/en/fantasy/why-i-quit-being-the-demon-king/list?title_no=4980",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0WhyIQuitDemonKing_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "The Breaker",
+        "url": "https://www.webtoons.com/en/action/the-breaker/list?title_no=86",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0TheBreaker_mobile_landingpage.jpg",
+        "release": "2007"
+    },
+    {
+        "title": "Vagabond (Korean Release)",
+        "url": "# (Check Korean publishers)",
+        "cover": "https://i.imgur.com/placeholder_vagabond.jpg",
+        "release": "1998"
+    },
+        {
+        "title": "MBTI",
+        "url": "# (Check Tapas or Lezhin)",
+        "cover": "https://via.placeholder.com/500x700?text=MBTI+Cover",
+        "release": "Unknown"
+    },
+    {
+        "title": "Mount Hua Sect",
+        "url": "https://www.webtoons.com/en/action/return-of-the-mount-hua-sect/list?title_no=4020",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0MountHuaSect_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Legend of the Northern Blade",
+        "url": "https://www.webtoons.com/en/action/legend-of-the-northern-blade/list?title_no=2815",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0LegendofNorthernBlade_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "The Knight Who Returned With a God",
+        "url": "https://www.webtoons.com/en/fantasy/the-knight-who-returned-with-a-god/list?title_no=4978",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0KnightWithGod_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Like a Fairy Flame",
+        "url": "# (Check Asura Scans)",
+        "cover": "https://via.placeholder.com/500x700?text=Fairy+Flame",
+        "release": "Unknown"
+    },
+    {
+        "title": "The Exceptioner",
+        "url": "# (Check Reaper Scans)",
+        "cover": "https://via.placeholder.com/500x700?text=Exceptioner",
+        "release": "Unknown"
+    },
+    {
+        "title": "Absolute Obedience",
+        "url": "https://www.webtoons.com/en/drama/absolute-obedience/list?title_no=4324",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220412_17/1649728587779f5lQr_JPEG/0AbsoluteObedience_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "High Class",
+        "url": "# (Check Tappytoon)",
+        "cover": "https://via.placeholder.com/500x700?text=High+Class",
+        "release": "Unknown"
+    },
+    {
+        "title": "Solo Leveling: Ragnarok",
+        "url": "https://www.webtoons.com/en/action/solo-leveling-rahnarok/list?title_no=5013",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230214_281/1676331247375yFc5k_JPEG/0SoloLevelingRagnarok_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Reaper of the Drifting Moon",
+        "url": "https://www.webtoons.com/en/action/reaper-of-the-drifting-moon/list?title_no=4486",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0ReaperDriftingMoon_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Return of Mount Hua Sect",
+        "url": "https://www.webtoons.com/en/action/return-of-the-mount-hua-sect/list?title_no=4020",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0ReturnMountHuaSect_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "The Player Hides His Past",
+        "url": "https://www.webtoons.com/en/fantasy/the-player-hides-his-past/list?title_no=5011",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230214_281/1676331247375yFc5k_JPEG/0PlayerHidesPast_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "The Return of Crazy Demon",
+        "url": "https://www.webtoons.com/en/action/the-return-of-the-crazy-demon/list?title_no=4487",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0ReturnCrazyDemon_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "The Main Characters I Only Know",
+        "url": "# (Check Flame Scans)",
+        "cover": "https://via.placeholder.com/500x700?text=Main+Characters",
+        "release": "Unknown"
+    },
+    {
+        "title": "The Horizon",
+        "url": "https://www.webtoons.com/en/drama/the-horizon/list?title_no=1743",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0TheHorizon_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "The Greatest Estate Designer",
+        "url": "https://www.webtoons.com/en/comedy/the-greatest-estate-developer/list?title_no=4021",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0GreatestEstateDesigner_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "The Constellations Are My Disciples",
+        "url": "https://www.webtoons.com/en/fantasy/the-constellations-are-my-disciples/list?title_no=4977",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0ConstellationsDisciples_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "The Boxer",
+        "url": "https://www.webtoons.com/en/drama/the-boxer/list?title_no=2419",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0TheBoxer_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "The Beginning After the End",
+        "url": "https://www.webtoons.com/en/fantasy/the-beginning-after-the-end/list?title_no=2816",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0BeginningAfterEnd_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "The Legend of the Northern Blade (Duplicate)",
+        "url": "https://www.webtoons.com/en/action/legend-of-the-northern-blade/list?title_no=2815",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0LegendofNorthernBlade_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+        {
+        "title": "The Academy's Genius Swordsman",
+        "url": "https://www.webtoons.com/en/action/the-academys-genius-swordsman/list?title_no=4976",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0AcademyGeniusSwordsman_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "18y Spy",
+        "url": "# (Check Asura Scans)",
+        "cover": "https://i.imgur.com/placeholder_18ySpy.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Terminally-Ill Genius Dark Knight",
+        "url": "https://www.webtoons.com/en/fantasy/terminally-ill-genius-dark-knight/list?title_no=5010",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230214_281/1676331247375yFc5k_JPEG/0DarkKnight_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Taming Master",
+        "url": "https://www.webtoons.com/en/fantasy/taming-master/list?title_no=4022",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0TamingMaster_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Talent Copycat",
+        "url": "# (Check Reaper Scans)",
+        "cover": "https://i.imgur.com/placeholder_copycat.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Son's Retribution",
+        "url": "# (Check Flame Scans)",
+        "cover": "https://i.imgur.com/placeholder_retribution.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Solo Max-Level Newbie",
+        "url": "https://www.webtoons.com/en/action/solo-max-level-newbie/list?title_no=4488",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0SoloMaxLevel_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Solo Leveling",
+        "url": "https://www.webtoons.com/en/action/solo-leveling/list?title_no=1834",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0SoloLeveling_mobile_landingpage.jpg",
+        "release": "2018"
+    },
+    {
+        "title": "Retired Demon King",
+        "url": "# (Check Zero Scans)",
+        "cover": "https://i.imgur.com/placeholder_demonking.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Player Who Returned 10,000 Years Later",
+        "url": "https://www.webtoons.com/en/action/player-who-returned-10000-years-later/list?title_no=4489",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0Player10000Years_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Pigpen",
+        "url": "https://www.webtoons.com/en/thriller/pigpen/list?title_no=1744",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0Pigpen_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Nano Machine",
+        "url": "https://www.webtoons.com/en/action/nano-machine/list?title_no=2817",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0NanoMachine_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Mystic Might & Mayhem",
+        "url": "# (Check Lynx Scans)",
+        "cover": "https://i.imgur.com/placeholder_mystic.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Monster",
+        "url": "https://www.webtoons.com/en/thriller/monster/list?title_no=1745",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0Monster_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Meet Me Today",
+        "url": "# (Check Tappytoon)",
+        "cover": "https://i.imgur.com/placeholder_meetme.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Reverend Insanity",
+        "url": "# (Check Light Novel adaptation)",
+        "cover": "https://i.imgur.com/placeholder_reverend.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Wild West Murim",
+        "url": "https://www.webtoons.com/en/action/wild-west-murim/list?title_no=4975",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0WildWestMurim_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Martial God Regressed to Level 2",
+        "url": "https://www.webtoons.com/en/action/martial-god-regressed-to-level-2/list?title_no=5014",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230214_281/1676331247375yFc5k_JPEG/0MartialGodRegressed_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Leviathan",
+        "url": "https://www.webtoons.com/en/fantasy/leviathan/list?title_no=1746",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0Leviathan_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Juvenile Offender",
+        "url": "https://www.webtoons.com/en/drama/juvenile-offender/list?title_no=1747",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0JuvenileOffender_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "How to Fight",
+        "url": "https://www.webtoons.com/en/action/how-to-fight/list?title_no=2418",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_122/1605589127354bV5uA_JPEG/0HowToFight_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Hero Has Returned",
+        "url": "https://www.webtoons.com/en/action/the-hero-returns/list?title_no=4023",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0HeroHasReturned_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Hectopascal",
+        "url": "# (Check Lezhin Comics)",
+        "cover": "https://i.imgur.com/placeholder_hectopascal.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Han Dae Sung Returned From Hell",
+        "url": "https://www.webtoons.com/en/action/the-return-of-the-crazy-demon/list?title_no=4487",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220614_212/1655185189218pJcYq_JPEG/0ReturnFromHell_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Gosu",
+        "url": "https://www.webtoons.com/en/action/gosu/list?title_no=1572",
+        "cover": "https://swebtoon-phinf.pstatic.net/20201117_280/1605589417893wqXy1_JPEG/0Gosu_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "F-Class Destiny Hero",
+        "url": "# (Check Asura Scans)",
+        "cover": "https://i.imgur.com/placeholder_fclass.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Existence",
+        "url": "# (Check Reaper Scans)",
+        "cover": "https://i.imgur.com/placeholder_existence.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Disease",
+        "url": "# (Check Flame Scans)",
+        "cover": "https://i.imgur.com/placeholder_disease.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Director Kim",
+        "url": "https://www.webtoons.com/en/action/manager-kim/list?title_no=4024",
+        "cover": "https://swebtoon-phinf.pstatic.net/20220104_122/1641260894968o5q7V_JPEG/0DirectorKim_mobile_landingpage.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Cryptocurrency Revenge",
+        "url": "# (Check Zero Scans)",
+        "cover": "https://i.imgur.com/placeholder_crypto.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Cartoonist Survival Guide",
+        "url": "https://www.webtoons.com/en/slice-of-life/cartoonist-survival-guide/list?title_no=2818",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0CartoonistSurvival_mobile_landingpage.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Bones",
+        "url": "# (Check Lynx Scans)",
+        "cover": "https://i.imgur.com/placeholder_bones.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Artifact Reading Appraiser",
+        "url": "https://www.webtoons.com/en/fantasy/artifact-reading-appraiser/list?title_no=4974",
+        "cover": "https://swebtoon-phinf.pstatic.net/20230131_169/1675136443434o0q0J_JPEG/0ArtifactAppraiser_mobile_landingpage.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "Absolute Necromancer",
+        "url": "# (Check Tappytoon)",
+        "cover": "https://i.imgur.com/placeholder_necromancer.jpg",
+        "release": "Unknown"
+    },
+    {
+        "title": "Blood Blade",
+        "url": "https://www.webtoons.com/en/action/blood-blade/list?title_no=2819",
+        "cover": "https://swebtoon-phinf.pstatic.net/20200901_213/1598922456834q5YrC_JPEG/0BloodBlade_mobile_landingpage.jpg",
+        "release": "2020"
     }
   ],
 
