@@ -1,5 +1,5 @@
 {
- "anime": [
+"anime": [
     {
         "title": "Attack on Titan",
         "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
@@ -410,109 +410,109 @@
     {
         "title": "Mobile Legends: Bang Bang",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/mobile-legends.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46EqlOS2Hrs8HKQXlTIe1VfmYM5Q73t9_mp_r4kEFUPuiPXmYBSX_0T0&s=10",
         "release": "July 14, 2016"
     },
     {
         "title": "Clash of Clans",
         "url": "https://m.imdb.com/title/tt23456789/",
-        "cover": "https://i.ibb.co/5KjZy0L/clash-of-clans.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLebkSRHht-tbkCZs4W7K9kjh_a3t_lIl_cJu75YIBTdx5vtXd479iho&s=10",
         "release": "August 2, 2012"
     },
     {
         "title": "Chess.com",
         "url": "https://www.chess.com",
-        "cover": "https://i.ibb.co/0mYqW0Z/chess-com.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-P2-SILSeGVlSegJ7ko8Hz1EELiRr44dpDHr5QHXFf89brKsFlga22lI&s=10",
         "release": "2007"
     },
     {
-        "title": "Lichess",
+        "title": "Lichess.org",
         "url": "https://lichess.org",
-        "cover": "https://i.ibb.co/8XHvJzT/lichess.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFfOO5wFD-wmg-zsbUOu0cpvLYXQwXLV_PoZscZIkzClQ1W5pWaCtnoxA&s=10",
         "release": "June 20, 2010"
     },
     {
-        "title": "Sudoku",
+        "title": "Sudoku.com",
         "url": "https://en.wikipedia.org/wiki/Sudoku",
-        "cover": "https://i.ibb.co/0nLQYfX/sudoku.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZV9UzAyHtQAq4m6meso9D1wnJ42ZBe9Y3lFYqHBbq9kQ7xXE5MI7esg&s=10",
         "release": "1979 (Modern)"
     },
     {
         "title": "Roblox",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/9HqJZzV/roblox.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShwIHk8dDRPJ1wwu3iyDvaCFhbGAcOyhTl7CTHmcMw-Ao3f34k9eJmJkMA&s=10",
         "release": "September 1, 2006"
     },
     {
         "title": "League of Legends: Wild Rift",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/4WZQv9L/wild-rift.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOZuub-4AFUH2Gyds8KCXyoc2Hr8eLt5dq1pDLsDdNArkCtIxpstguVE&s=10",
         "release": "October 27, 2020"
     },
     {
         "title": "Call of Duty: Mobile",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/cod-mobile.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlaxIiNCxYDoGy2wSTSSffeTlW-dTcKQvAs3reWxQvOzTYtyNeEphQYROp&s=10",
         "release": "October 1, 2019"
     },
     {
         "title": "Asura's Wrath (PS3)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/asura-wrath.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxscnyqVB-Ld11SbKc4wi734URfQkChMTCbJllwGLQmM6lU6fGahGyfbw&s=10",
         "release": "February 21, 2012"
     },
     {
         "title": "Batman: Arkham City (PS3)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/arkham-city.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSc8GEtdbBXojNp2OFc9MyhcWgAMYN-jYwBHkPZlV6A5NpYz8UOT7apIms&s=10",
         "release": "October 18, 2011"
     },
     {
         "title": "Skate 3 (PS3)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/skate-3.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSKH3i27voF5NOLX_ePSRW3pz6W7ZKCE1r830AABfkOf7xl6jN4axkPRk&s=10",
         "release": "May 11, 2010"
     },
     {
         "title": "Street Fighter X Tekken (PS3)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/sfxt.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69iLLxvQgMS8SX1SB4xIL2A-G3gmyNnE2p1Uxg8dkMEas70FKaOo6MJd9&s=10",
         "release": "March 6, 2012"
     },
     {
         "title": "Final Fantasy VII (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/ff7.jpg",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Dirgeofcerberususbox.jpg/250px-Dirgeofcerberususbox.jpg",
         "release": "January 31, 1997 (Original)"
     },
     {
         "title": "God of War (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/gow-ps2.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtDT7fvkEC96A9pweu6oyD3X6sjMmYk6RkY0Dk2zzrB5FL-U8QwitkYB0&s=10",
         "release": "March 22, 2005"
     },
     {
         "title": "Guitar Hero II (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/gh2.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCC_KtgYR_oZxQngVyiFDDp7NmDfwKvOJLsC0Jwo4HneOo4r90VxHMS02I&s=10",
         "release": "November 7, 2006"
     },
     {
         "title": "Manhunt (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/manhunt.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSybk7LeK3KuEiZJg5wMDHSkX8nwIKZbQEpPScxI3c5shgdjGDLe8yHYnYv&s=10",
         "release": "November 18, 2003"
     },
     {
         "title": "MotoGP 08 (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/motogp8.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4W9CTRiL9Bzg-IlU7xSPJYQ0te02KAtIaSJGALZ-W0IhSzC4evl0NSaE&s=10",
         "release": "September 19, 2008"
     },
     {
         "title": "Need for Speed: Most Wanted (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://i.ibb.co/0jQY9Xx/nfs-most-wanted.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfuqw4didELK_zoHP3bDGBWBgqXGU_n_j0H2vyq-z-3UQatslSriY8-s&s=10",
         "release": "November 15, 2005"
     }
 ],
@@ -548,7 +548,7 @@
     {
         "title": "The Outdoor Boys",
         "url": "https://www.youtube.com/@OutdoorBoys",
-        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_kMwdFZd-Nl1trq6PgKkkqH58o9Lj0phbNoTaFTtNeoNg4=s900-c-k-c0x00ffffff-no-rj",
         "release": "June 15, 2015"
     },
     {
@@ -560,19 +560,19 @@
     {
         "title": "Unsolicited Advice",
         "url": "https://www.youtube.com/@UnsolicitedAdvice",
-        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGfuNG-F4Fqz5P5-I1gg5k0XpZzhA0CsDn_dVzhJMJVTWRAsX1Z8xJmY&s=10",
         "release": "March 12, 2020"
     },
     {
         "title": "Beluga",
         "url": "https://www.youtube.com/@Beluga",
-        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "cover": "https://static.wikia.nocookie.net/youtube/images/6/6a/Beluga.jpg/revision/latest?cb=20210629035826",
         "release": "January 5, 2019"
     },
     {
         "title": "Paolul",
         "url": "https://www.youtube.com/@paolul",
-        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "cover": "https://yt3.googleusercontent.com/ILLDEl33r6Kmh21ft8WwHtQ6oqmLVqNKFYWDJv5muFttp3DYrX1fr8Ax6BHnJOPZCwzhyrIk6Q=s900-c-k-c0x00ffffff-no-rj",
         "release": "August 20, 2018"
     },
     {
@@ -593,127 +593,127 @@
     {
         "title": "1984",
         "url": "https://www.goodreads.com/book/show/40961427-1984",
-        "cover": "https://m.media-amazon.com/images/I/81WUbNvQ0bL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4zd7HvI5JaFFnwWrzNzSnzM7xG8pcVCCFROFFUvi-yglXBlkkWs33Ww&s=10",
         "release": "June 8, 1949"
     },
     {
         "title": "Return to Tipasa",
         "url": "https://www.goodreads.com/book/show/16284.Lyrical_and_Critical_Essays",
-        "cover": "https://upload.wikimedia.org/wikipedia/en/4/4e/Lyrical_and_Critical_Essays.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54xdJjepIwjm3b5txgiGm5gKKcaRQhQ2Hymj3jAIEf2kM0DwTpep1DpY&s=10",
         "release": "1958"
     },
     {
         "title": "Animal Farm",
         "url": "https://www.goodreads.com/book/show/7613.Animal_Farm",
-        "cover": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3qanGHZukriBPbWLdl5-Tt-NlZjp9DKiTnvOQXqTme1JomTluDFtfqU&s=10",
         "release": "August 17, 1945"
     },
     {
         "title": "Read People Like a Book",
-        "url": "https://www.goodreads.com/book/show/58637937-read-people-like-a-book",
-        "cover": "https://m.media-amazon.com/images/I/71IpohYwH8L._AC_UF1000,1000_QL80_.jpg",
+        "url": "",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AoeaAwutOL0Gmv8RjW0WAyYA4dOe-cXqD7PzmKpCeTGFbTrSLIx9pDo&s=10",
         "release": "2021"
     },
     {
         "title": "The Department of Truth Vol. 1",
         "url": "https://www.goodreads.com/book/show/56347161-the-department-of-truth-vol-1",
-        "cover": "https://m.media-amazon.com/images/I/91ozcU+8fHL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqUKb2yyE7GcaEPUgyle4v_ocPOp517Hi9_FlB68Ly1hHR70K2OoXRRqw7&s=10",
         "release": "May 25, 2021"
     },
     {
         "title": "The Department of Truth Vol. 2",
         "url": "https://www.goodreads.com/book/show/57455568-the-department-of-truth-vol-2",
-        "cover": "https://m.media-amazon.com/images/I/91Zm-F0brsS._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDuDKRtPF4VpEhAV5YMO9UN2kOVdjF3X0OAih3aPB7nvhoPkUp43jaEut&s=10",
         "release": "October 12, 2021"
     },
     {
         "title": "The Yellow Wallpaper",
         "url": "https://www.goodreads.com/book/show/30417433-the-yellow-wallpaper",
-        "cover": "https://m.media-amazon.com/images/I/81FvfzkM4qL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Yellow_Wall_Paper_pg_1.jpg/960px-The_Yellow_Wall_Paper_pg_1.jpg",
         "release": "January 1892"
     },
     {
         "title": "The Metamorphosis",
         "url": "https://www.goodreads.com/book/show/485894.The_Metamorphosis",
-        "cover": "https://m.media-amazon.com/images/I/71e5nY9sVQL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuxmnGjWPHoPHfnSGwXwbElRy6oRnLOF3jawgIblOAC6gSFRECLQ3sYW6&s=10",
         "release": "1915"
     },
     {
         "title": "The Art of Living",
         "url": "https://www.goodreads.com/book/show/116877.The_Art_of_Living",
-        "cover": "https://m.media-amazon.com/images/I/71aG+xDKSYL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaI6Pri2RvDnTBFUujcCl456eLsFvcssdC1ul7jkdwYB-NJT_Ou2SOmM&s=10",
         "release": "January 1, 1995"
     },
     {
         "title": "The Fall",
         "url": "https://www.goodreads.com/book/show/11991.The_Fall",
-        "cover": "https://m.media-amazon.com/images/I/71gBLuLThXL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaI6Pri2RvDnTBFUujcCl456eLsFvcssdC1ul7jkdwYB-NJT_Ou2SOmM&s=10",
         "release": "1956"
     },
     {
         "title": "No Longer Human",
         "url": "https://www.goodreads.com/book/show/194746.No_Longer_Human",
-        "cover": "https://m.media-amazon.com/images/I/81y6s+CA1VL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhji33mr_y4uDh5EzTQo4uJQxXrDH4cAd2X1JS-y64XjjLJK0XINEJS0T0&s=10",
         "release": "1948"
     },
     {
         "title": "The Setting Sun",
         "url": "https://www.goodreads.com/book/show/96491.The_Setting_Sun",
-        "cover": "https://m.media-amazon.com/images/I/71XpIUAIvJL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3To3Y4KozW6vBSRrtTnkKfXQVNRB_JeOqfblIvTQ1jzKnJ4bJlHxourSH&s=10",
         "release": "1947"
     },
     {
         "title": "The Stranger",
         "url": "https://www.goodreads.com/book/show/49552.The_Stranger",
-        "cover": "https://m.media-amazon.com/images/I/71UG9h5lABL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgS-vbMEF6INYweZc_fTQ16T4u4bWnxbZ90hLDodF4xjbYMuNlTf8V7f5C&s=10",
         "release": "1942"
     },
     {
         "title": "White Nights",
         "url": "https://www.goodreads.com/book/show/718888.White_Nights",
-        "cover": "https://m.media-amazon.com/images/I/81DnK9rgG0L._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTX2NCO_UCrVRDZFZwDqLiQCINhlVcxeIY7Fyq9d3ZR-bmafEWeaQp1JU&s=10",
         "release": "1848"
     },
     {
         "title": "The Art of War",
         "url": "https://www.goodreads.com/book/show/10534.The_Art_of_War",
-        "cover": "https://m.media-amazon.com/images/I/91s9UzKQGGL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc0_Vo-V7YfyiDT4QMQl3zcVnwxnGwZ8a71KqXgK6D_NnNihZR_1RUE-Uc&s=10",
         "release": "5th century BC"
     },
     {
         "title": "Meditations",
         "url": "https://www.goodreads.com/book/show/30659.Meditations",
-        "cover": "https://m.media-amazon.com/images/I/81RQydFdpDL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxxC50rQFIgpFtZhV2yS89kgzd-4-9CQqfyH25DGzBieEVh-z0j5Z1_g&s=10",
         "release": "180 AD"
     },
     {
         "title": "The Boy, the Mole, the Fox and the Horse",
         "url": "https://www.goodreads.com/book/show/43708884-the-boy-the-mole-the-fox-and-the-horse",
-        "cover": "https://m.media-amazon.com/images/I/81V9F+2uQkL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdDNhbT96Lx8SUT8WBHqubI6zOO19xYi6uwWcpvnZkR-5sAanpYLpwHPVu&s=10",
         "release": "October 10, 2019"
     },
     {
         "title": "The 7 Habits of Highly Effective Teens",
         "url": "https://www.goodreads.com/book/show/300789.The_7_Habits_of_Highly_Effective_Teens",
-        "cover": "https://m.media-amazon.com/images/I/81p8L2KRB2L._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_7_Habits_of_Highly_Effective_Teens.jpg",
         "release": "October 31, 1997"
     },
     {
         "title": "Crime and Punishment",
         "url": "https://www.goodreads.com/book/show/7144.Crime_and_Punishment",
-        "cover": "https://m.media-amazon.com/images/I/91qkDCgGHvL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGGOus8ZBbK-nna4q589B4UFAUFTl42aFMiNBD4wUTGeZeng5MxdvIxxd&s=10",
         "release": "1866"
     },
     {
         "title": "The Picture of Dorian Gray",
         "url": "https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray",
-        "cover": "https://m.media-amazon.com/images/I/81AFocW+JBL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMkwUgDu82V470NiTPZMTcYIqcfuR3Edm12Jb2nx4xUO56xOiaptgVDA&s=10",
         "release": "1890"
     },
     {
         "title": "The Death of Ivan Ilych",
         "url": "https://www.goodreads.com/book/show/212346.The_Death_of_Ivan_Ilych",
-        "cover": "https://m.media-amazon.com/images/I/81KykiQU-nL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzr_5OQQWGxlThI2ZqT644yhUy6bPC2YZKmEBGdwuJLJyoNLGwgkWMDs&s=10",
         "release": "1886"
     }
 ]
