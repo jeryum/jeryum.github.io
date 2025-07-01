@@ -1,48 +1,526 @@
 {
-  "anime": [
+ "anime": [
     {
-      "title": "Attack on Titan",
-      "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
-      "cover": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
-      "release": "April 7, 2013"
+        "title": "Attack on Titan",
+        "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+        "release": "April 7, 2013"
     },
     {
-      "title": "Death Note",
-      "url": "https://myanimelist.net/anime/1535/Death_Note",
-      "cover": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
-      "release": "October 4, 2006"
+        "title": "Death Note",
+        "url": "https://myanimelist.net/anime/1535/Death_Note",
+        "cover": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+        "release": "October 4, 2006"
+    },
+    {
+        "title": "The Seven Deadly Sins",
+        "url": "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
+        "cover": "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
+        "release": "October 5, 2014"
+    },
+    {
+        "title": "91 Days",
+        "url": "https://myanimelist.net/anime/32936/91_Days",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/80166.jpg",
+        "release": "July 9, 2016"
+    },
+    {
+        "title": "Akame ga Kill!",
+        "url": "https://myanimelist.net/anime/22147/Akame_ga_Kill",
+        "cover": "https://cdn.myanimelist.net/images/anime/1429/95946.jpg",
+        "release": "July 7, 2014"
+    },
+    {
+        "title": "Angel Densetsu",
+        "url": "https://myanimelist.net/anime/1095/Angel_Densetsu",
+        "cover": "https://cdn.myanimelist.net/images/anime/2/20924.jpg",
+        "release": "May 1, 1996"
+    },
+    {
+        "title": "Anohana: The Flower We Saw That Day",
+        "url": "https://myanimelist.net/anime/9989/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai",
+        "cover": "https://cdn.myanimelist.net/images/anime/5/79697.jpg",
+        "release": "April 15, 2011"
+    },
+    {
+        "title": "Blood Lad",
+        "url": "https://myanimelist.net/anime/14833/Blood_Lad",
+        "cover": "https://cdn.myanimelist.net/images/anime/12/44831.jpg",
+        "release": "July 8, 2013"
+    },
+    {
+        "title": "Blue Lock",
+        "url": "https://myanimelist.net/anime/49596/Blue_Lock",
+        "cover": "https://cdn.myanimelist.net/images/anime/1546/131007.jpg",
+        "release": "October 9, 2022"
+    },
+    {
+        "title": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense",
+        "url": "https://myanimelist.net/anime/39247/Itai_no_wa_Iya_nano_de_Bougyoryoku_ni_Kyokufuri_Shitai_to_Omoimasu",
+        "cover": "https://cdn.myanimelist.net/images/anime/1085/133441.jpg",
+        "release": "January 8, 2020"
+    },
+    {
+        "title": "Charlotte",
+        "url": "https://myanimelist.net/anime/28999/Charlotte",
+        "cover": "https://cdn.myanimelist.net/images/anime/12/74683.jpg",
+        "release": "July 5, 2015"
+    },
+    {
+        "title": "Erased",
+        "url": "https://myanimelist.net/anime/31043/Boku_dake_ga_Inai_Machi",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/77957.jpg",
+        "release": "January 8, 2016"
+    },
+    {
+        "title": "Yowamushi Pedal",
+        "url": "https://myanimelist.net/anime/18179/Yowamushi_Pedal",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/53211.jpg",
+        "release": "October 8, 2013"
+    },
+    {
+        "title": "Classroom of the Elite",
+        "url": "https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e",
+        "cover": "https://cdn.myanimelist.net/images/anime/5/86830.jpg",
+        "release": "July 12, 2017"
+    },
+    {
+        "title": "Claymore",
+        "url": "https://myanimelist.net/anime/1818/Claymore",
+        "cover": "https://cdn.myanimelist.net/images/anime/3/21834.jpg",
+        "release": "April 4, 2007"
+    },
+    {
+        "title": "Dandadan",
+        "url": "https://myanimelist.net/anime/53852/Dandadan",
+        "cover": "https://cdn.myanimelist.net/images/anime/1017/141929.jpg",
+        "release": "2024"
+    },
+    {
+        "title": "Darwin's Game",
+        "url": "https://myanimelist.net/anime/39787/Darwins_Game",
+        "cover": "https://cdn.myanimelist.net/images/anime/1084/111067.jpg",
+        "release": "January 4, 2020"
+    },
+    {
+        "title": "Dr. Stone",
+        "url": "https://myanimelist.net/anime/38691/Dr_Stone",
+        "cover": "https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
+        "release": "July 5, 2019"
+    },
+    {
+        "title": "The Way of the Househusband",
+        "url": "https://myanimelist.net/anime/42938/Gokushufudou",
+        "cover": "https://cdn.myanimelist.net/images/anime/1813/110799.jpg",
+        "release": "April 8, 2021"
+    },
+    {
+        "title": "Golden Boy",
+        "url": "https://myanimelist.net/anime/639/Golden_Boy",
+        "cover": "https://cdn.myanimelist.net/images/anime/12/26173.jpg",
+        "release": "October 28, 1995"
+    },
+    {
+        "title": "Grandpa and Grandma Turn Young Again",
+        "url": "https://myanimelist.net/anime/54360/Jiichan_wa_Jukkou_ni_Modorenai",
+        "cover": "https://cdn.myanimelist.net/images/anime/1986/141031.jpg",
+        "release": "2024"
+    },
+    {
+        "title": "Great Teacher Onizuka",
+        "url": "https://myanimelist.net/anime/245/GTO__Great_Teacher_Onizuka",
+        "cover": "https://cdn.myanimelist.net/images/anime/13/11460.jpg",
+        "release": "June 30, 1999"
+    },
+    {
+        "title": "Haikyu!!",
+        "url": "https://myanimelist.net/anime/20583/Haikyuu",
+        "cover": "https://cdn.myanimelist.net/images/anime/7/76014.jpg",
+        "release": "April 6, 2014"
+    },
+    {
+        "title": "Himouto! Umaru-chan",
+        "url": "https://myanimelist.net/anime/28825/Himouto_Umaru-chan",
+        "cover": "https://cdn.myanimelist.net/images/anime/8/75151.jpg",
+        "release": "July 9, 2015"
+    },
+    {
+        "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+        "url": "https://myanimelist.net/anime/28121/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka",
+        "cover": "https://cdn.myanimelist.net/images/anime/2/70187.jpg",
+        "release": "April 4, 2015"
+    },
+    {
+        "title": "JoJo's Bizarre Adventure",
+        "url": "https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV",
+        "cover": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+        "release": "October 6, 2012"
+    },
+    {
+        "title": "Jujutsu Kaisen",
+        "url": "https://myanimelist.net/anime/40748/Jujutsu_Kaisen",
+        "cover": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+        "release": "October 3, 2020"
+    },
+    {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "url": "https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba",
+        "cover": "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+        "release": "April 6, 2019"
+    },
+    {
+        "title": "Mashle: Magic and Muscles",
+        "url": "https://myanimelist.net/anime/51535/Mashle",
+        "cover": "https://cdn.myanimelist.net/images/anime/1935/131810.jpg",
+        "release": "April 8, 2023"
+    },
+    {
+        "title": "Memories",
+        "url": "https://myanimelist.net/anime/1115/Memories",
+        "cover": "https://cdn.myanimelist.net/images/anime/7/75699.jpg",
+        "release": "December 23, 1995"
+    },
+    {
+        "title": "Mob Psycho 100",
+        "url": "https://myanimelist.net/anime/32182/Mob_Psycho_100",
+        "cover": "https://cdn.myanimelist.net/images/anime/8/80356.jpg",
+        "release": "July 12, 2016"
+    },
+    {
+        "title": "Moriarty the Patriot",
+        "url": "https://myanimelist.net/anime/39754/Yuukoku_no_Moriarty",
+        "cover": "https://cdn.myanimelist.net/images/anime/1259/110531.jpg",
+        "release": "October 11, 2020"
+    },
+    {
+        "title": "My Hero Academia",
+        "url": "https://myanimelist.net/anime/31964/Boku_no_Hero_Academia",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+        "release": "April 3, 2016"
+    },
+    {
+        "title": "Naruto",
+        "url": "https://myanimelist.net/anime/20/Naruto",
+        "cover": "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+        "release": "October 3, 2002"
+    },
+    {
+        "title": "Ninja Kamui",
+        "url": "https://myanimelist.net/anime/54217/Ninja_Kamui",
+        "cover": "https://cdn.myanimelist.net/images/anime/1317/141586.jpg",
+        "release": "February 11, 2024"
+    },
+    {
+        "title": "One Piece",
+        "url": "https://myanimelist.net/anime/21/One_Piece",
+        "cover": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+        "release": "October 20, 1999"
+    },
+    {
+        "title": "Noragami",
+        "url": "https://myanimelist.net/anime/20507/Noragami",
+        "cover": "https://cdn.myanimelist.net/images/anime/1889/128669.jpg",
+        "release": "January 5, 2014"
+    },
+    {
+        "title": "Seraph of the End",
+        "url": "https://myanimelist.net/anime/26243/Owari_no_Seraph",
+        "cover": "https://cdn.myanimelist.net/images/anime/5/73474.jpg",
+        "release": "April 4, 2015"
+    },
+    {
+        "title": "Ping Pong the Animation",
+        "url": "https://myanimelist.net/anime/22147/Ping_Pong_the_Animation",
+        "cover": "https://cdn.myanimelist.net/images/anime/10/58041.jpg",
+        "release": "April 11, 2014"
+    },
+    {
+        "title": "Platinum End",
+        "url": "https://myanimelist.net/anime/42396/Platinum_End",
+        "cover": "https://cdn.myanimelist.net/images/anime/1713/117637.jpg",
+        "release": "October 8, 2021"
+    },
+    {
+        "title": "Plunderer",
+        "url": "https://myanimelist.net/anime/39187/Plunderer",
+        "cover": "https://cdn.myanimelist.net/images/anime/1018/104627.jpg",
+        "release": "January 9, 2020"
+    },
+    {
+        "title": "Solo Leveling",
+        "url": "https://myanimelist.net/anime/52991/Solo_Leveling",
+        "cover": "https://cdn.myanimelist.net/images/anime/1704/141264.jpg",
+        "release": "January 7, 2024"
+    },
+    {
+        "title": "Spy x Family",
+        "url": "https://myanimelist.net/anime/50265/Spy_x_Family",
+        "cover": "https://cdn.myanimelist.net/images/anime/1441/122795.jpg",
+        "release": "April 9, 2022"
+    },
+    {
+        "title": "Sword Art Online",
+        "url": "https://myanimelist.net/anime/11757/Sword_Art_Online",
+        "cover": "https://cdn.myanimelist.net/images/anime/11/39717.jpg",
+        "release": "July 8, 2012"
+    },
+    {
+        "title": "The Fable",
+        "url": "https://myanimelist.net/anime/53996/The_Fable",
+        "cover": "https://cdn.myanimelist.net/images/anime/1235/142301.jpg",
+        "release": "April 7, 2024"
+    },
+    {
+        "title": "The Misfit of Demon King Academy",
+        "url": "https://myanimelist.net/anime/40052/Maou_Gakuin_no_Futekigousha",
+        "cover": "https://cdn.myanimelist.net/images/anime/1815/107584.jpg",
+        "release": "July 4, 2020"
+    },
+    {
+        "title": "The New Gate",
+        "url": "https://myanimelist.net/anime/54425/The_New_Gate",
+        "cover": "https://cdn.myanimelist.net/images/anime/1245/142303.jpg",
+        "release": "April 14, 2024"
+    },
+    {
+        "title": "The Promised Neverland",
+        "url": "https://myanimelist.net/anime/37779/Yakusoku_no_Neverland",
+        "cover": "https://cdn.myanimelist.net/images/anime/1545/111115.jpg",
+        "release": "January 10, 2019"
+    },
+    {
+        "title": "The Rising of the Shield Hero",
+        "url": "https://myanimelist.net/anime/35790/Tate_no_Yuusha_no_Nariagari",
+        "cover": "https://cdn.myanimelist.net/images/anime/1490/101365.jpg",
+        "release": "January 9, 2019"
+    },
+    {
+        "title": "Tower of God",
+        "url": "https://myanimelist.net/anime/39017/Kami_no_Tou",
+        "cover": "https://cdn.myanimelist.net/images/anime/1764/106845.jpg",
+        "release": "April 2, 2020"
+    },
+    {
+        "title": "Twin Star Exorcists",
+        "url": "https://myanimelist.net/anime/31478/Sousei_no_Onmyouji",
+        "cover": "https://cdn.myanimelist.net/images/anime/8/77831.jpg",
+        "release": "April 6, 2016"
+    },
+    {
+        "title": "Vinland Saga",
+        "url": "https://myanimelist.net/anime/37521/Vinland_Saga",
+        "cover": "https://cdn.myanimelist.net/images/anime/1500/103005.jpg",
+        "release": "July 7, 2019"
+    },
+    {
+        "title": "Wind Breaker",
+        "url": "https://myanimelist.net/anime/54890/Wind_Breaker",
+        "cover": "https://cdn.myanimelist.net/images/anime/1970/142305.jpg",
+        "release": "April 5, 2024"
+    },
+    {
+        "title": "Your Lie in April",
+        "url": "https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso",
+        "cover": "https://cdn.myanimelist.net/images/anime/3/67177.jpg",
+        "release": "October 10, 2014"
     }
-  ],
+],
 
-  "movie": [
+
+
+
+
+ "movie": [
     {
-      "title": "Puss in Boots",
-      "url": "https://m.imdb.com/title/tt0448694",
-      "cover": "https://i.ibb.co/nmYLnmR/cover.jpg",
-      "release": "October 23, 2011"
+        "title": "Good Will Hunting",
+        "url": "https://www.imdb.com/title/tt0119217/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "release": "December 5, 1997"
     },
     {
-      "title": "Avatar",
-      "url": "https://m.imdb.com/title/tt0499549",
-      "cover": "https://i.ibb.co/W0h3s3T/cover.jpg",
-      "release": "December 10, 2009"
+        "title": "Fight Club",
+        "url": "https://www.imdb.com/title/tt0137523/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+        "release": "October 15, 1999"
+    },
+    {
+        "title": "The Matrix",
+        "url": "https://www.imdb.com/title/tt0133093/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+        "release": "March 31, 1999"
+    },
+    {
+        "title": "Dead Poets Society",
+        "url": "https://www.imdb.com/title/tt0097165/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BOGYwYWNjMzgtNGU4ZC00NWQ2LWEwZjUtMzE1Zjc3NjY3YTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "release": "June 2, 1989"
+    },
+    {
+        "title": "The Truman Show",
+        "url": "https://www.imdb.com/title/tt0120382/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg",
+        "release": "June 5, 1998"
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "url": "https://www.imdb.com/title/tt0993846/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg",
+        "release": "December 25, 2013"
+    },
+    {
+        "title": "Forrest Gump",
+        "url": "https://www.imdb.com/title/tt0109830/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "release": "July 6, 1994"
+    },
+    {
+        "title": "American Psycho",
+        "url": "https://www.imdb.com/title/tt0144084/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+        "release": "April 14, 2000"
+    },
+    {
+        "title": "Whiplash",
+        "url": "https://www.imdb.com/title/tt2582802/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+        "release": "October 10, 2014"
+    },
+    {
+        "title": "The Dark Knight",
+        "url": "https://www.imdb.com/title/tt0468569/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
+        "release": "July 18, 2008"
+    },
+    {
+        "title": "Titanic",
+        "url": "https://www.imdb.com/title/tt0120338/",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+        "release": "December 19, 1997"
     }
-  ],
+],
+  
+  
+  
+  
+  
+  
+  
 
   "game": [
     {
-      "title": "Minecraft",
-      "url": "https://m.imdb.com/title/tt2011970",
-      "cover": "https://i.ibb.co/3srzyQr/cover.jpg",
-      "release": "May 17, 2009"
+        "title": "Mobile Legends: Bang Bang",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/mobile-legends.jpg",
+        "release": "July 14, 2016"
     },
     {
-      "title": "Demon's Souls",
-      "url": "https://m.imdb.com/title/tt1537739",
-      "cover": "https://i.ibb.co/C6tNZX9/cover.jpg",
-      "release": "February 5, 2009"
+        "title": "Clash of Clans",
+        "url": "https://m.imdb.com/title/tt23456789/",
+        "cover": "https://i.ibb.co/5KjZy0L/clash-of-clans.jpg",
+        "release": "August 2, 2012"
+    },
+    {
+        "title": "Chess.com",
+        "url": "https://www.chess.com",
+        "cover": "https://i.ibb.co/0mYqW0Z/chess-com.jpg",
+        "release": "2007"
+    },
+    {
+        "title": "Lichess",
+        "url": "https://lichess.org",
+        "cover": "https://i.ibb.co/8XHvJzT/lichess.jpg",
+        "release": "June 20, 2010"
+    },
+    {
+        "title": "Sudoku",
+        "url": "https://en.wikipedia.org/wiki/Sudoku",
+        "cover": "https://i.ibb.co/0nLQYfX/sudoku.jpg",
+        "release": "1979 (Modern)"
+    },
+    {
+        "title": "Roblox",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/9HqJZzV/roblox.jpg",
+        "release": "September 1, 2006"
+    },
+    {
+        "title": "League of Legends: Wild Rift",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/4WZQv9L/wild-rift.jpg",
+        "release": "October 27, 2020"
+    },
+    {
+        "title": "Call of Duty: Mobile",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/cod-mobile.jpg",
+        "release": "October 1, 2019"
+    },
+    {
+        "title": "Asura's Wrath (PS3)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/asura-wrath.jpg",
+        "release": "February 21, 2012"
+    },
+    {
+        "title": "Batman: Arkham City (PS3)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/arkham-city.jpg",
+        "release": "October 18, 2011"
+    },
+    {
+        "title": "Skate 3 (PS3)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/skate-3.jpg",
+        "release": "May 11, 2010"
+    },
+    {
+        "title": "Street Fighter X Tekken (PS3)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/sfxt.jpg",
+        "release": "March 6, 2012"
+    },
+    {
+        "title": "Final Fantasy VII (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/ff7.jpg",
+        "release": "January 31, 1997 (Original)"
+    },
+    {
+        "title": "God of War (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/gow-ps2.jpg",
+        "release": "March 22, 2005"
+    },
+    {
+        "title": "Guitar Hero II (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/gh2.jpg",
+        "release": "November 7, 2006"
+    },
+    {
+        "title": "Manhunt (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/manhunt.jpg",
+        "release": "November 18, 2003"
+    },
+    {
+        "title": "MotoGP 08 (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/motogp8.jpg",
+        "release": "September 19, 2008"
+    },
+    {
+        "title": "Need for Speed: Most Wanted (PS2)",
+        "url": "https://m.imdb.com/title/tt12345678/",
+        "cover": "https://i.ibb.co/0jQY9Xx/nfs-most-wanted.jpg",
+        "release": "November 15, 2005"
     }
-  ],
+],
+
+
+
+
+
 
   "music": [
     {
@@ -59,69 +537,186 @@
     }
   ],
 
+
+
+
+
+
+
+
   "channel": [
     {
-      "title": "Slaying The Dragon",
-      "url": "https://www.youtube.com/@slayingthedragon",
-      "cover": "https://yt3.googleusercontent.com/rn6FdUja6V224On4xyuSgcUrQyTPAHaUBA3MQmLr-ChvxSGeCmdGTvkZvJXjvgO-uZc1cxqS=s500-c-k-c0x00ffffff-no-rj",
-      "release": "July 9, 2022"
+        "title": "The Outdoor Boys",
+        "url": "https://www.youtube.com/@OutdoorBoys",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "release": "June 15, 2015"
     },
     {
-      "title": "Aperture",
-      "url": "https://www.youtube.com/@ApertureThinking",
-      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mhd3RmfiJf5zWwaPpmuJ2sG2-vu0Zy7Apo7J0-HbNG7dE=s500-c-k-c0x00ffffff-no-rj",
-      "release": "July 1, 2017"
+        "title": "Aperture",
+        "url": "https://www.youtube.com/@ApertureThinking",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mhd3RmfiJf5zWwaPpmuJ2sG2-vu0Zy7Apo7J0-HbNG7dE=s500-c-k-c0x00ffffff-no-rj",
+        "release": "July 1, 2017"
     },
     {
-      "title": "Fooster",
-      "url": "https://www.youtube.com/@thefoosterchannel",
-      "cover": "https://yt3.googleusercontent.com/tbJyCVt4lBCrtl5lEliPQJXH_uDmwy_NZG83fT_d4HRh-ZCN6X1xH7Bj6TX8BNK-5MyPed8V_g=s500-c-k-c0x00ffffff-no-rj",
-      "release": "March 7, 2014"
+        "title": "Unsolicited Advice",
+        "url": "https://www.youtube.com/@UnsolicitedAdvice",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "release": "March 12, 2020"
     },
     {
-      "title": "Disrupt",
-      "url": "https://www.youtube.com/@DisruptReality",
-      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mqv-i4_VYU8FsyeuCi8hvt0Nb3Ehw6pOJ1FwkMLwTGbt0=s500-c-k-c0x00ffffff-no-rj",
-      "release": "April 3, 2012"
+        "title": "Beluga",
+        "url": "https://www.youtube.com/@Beluga",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "release": "January 5, 2019"
     },
     {
-      "title": "LEMMiNO",
-      "url": "https://www.youtube.com/@LEMMiNO",
-      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_n9UULHnAEc-yMg6URdgtNDvUqeu-SXR3WMV2ObydPnLg=s500-c-k-c0x00ffffff-no-rj",
-      "release": "February 15, 2012"
+        "title": "Paolul",
+        "url": "https://www.youtube.com/@paolul",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_m5xQp0T4b8X2wH9k3v4yXQJ7Z1QJQZ1Y1Y1Y1Y1Y1Y1Y1Y1=s500-c-k-c0x00ffffff-no-rj",
+        "release": "August 20, 2018"
     },
     {
-      "title": "PewDiePie",
-      "url": "https://www.youtube.com/@PewDiePie",
-      "cover": "https://yt3.googleusercontent.com/5oUY3tashyxfqsjO5SGhjT4dus8FkN9CsAHwXWISFrdPYii1FudD4ICtLfuCw6-THJsJbgoY=s500-c-k-c0x00ffffff-no-rj",
-      "release": "April 29, 2010"
-    },
-    {
-      "title": "theRadBrad",
-      "url": "https://www.youtube.com/@theRadBrad",
-      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mB2XqhYowgU8pm8h56dmkzJoCmha9FE7Op_tYZZ8WqkK4=s500-c-k-c0x00ffffff-no-rj",
-      "release": "November 27, 2006"
-    },
-    {
-      "title": "melodysheep",
-      "url": "https://www.youtube.com/@melodysheep",
-      "cover": "https://yt3.googleusercontent.com/ytc/AIdro_klHVaP6_ZcnT8VyPFedRHgJOPOym_tLSxoFCL0KJSZL1k=s500-c-k-c0x00ffffff-no-rj",
-      "release": "June 25, 2006"
+        "title": "Disrupt",
+        "url": "https://www.youtube.com/@DisruptReality",
+        "cover": "https://yt3.googleusercontent.com/ytc/AIdro_mqv-i4_VYU8FsyeuCi8hvt0Nb3Ehw6pOJ1FwkMLwTGbt0=s500-c-k-c0x00ffffff-no-rj",
+        "release": "April 3, 2012"
     }
-  ],
+],
 
-  "books": [
+
+
+
+
+
+
+"books": [
     {
-      "title": "1984",
-      "url": "https://www.goodreads.com/book/show/40961427-1984",
-      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1532714506i/40961427.jpg",
-      "release": "June 8, 1949"
+        "title": "1984",
+        "url": "https://www.goodreads.com/book/show/40961427-1984",
+        "cover": "https://m.media-amazon.com/images/I/81WUbNvQ0bL._AC_UF1000,1000_QL80_.jpg",
+        "release": "June 8, 1949"
     },
     {
-      "title": "The Hobbit",
-      "url": "https://www.goodreads.com/book/show/5907.The_Hobbit",
-      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
-      "release": "September 21, 1937"
+        "title": "Return to Tipasa",
+        "url": "https://www.goodreads.com/book/show/16284.Lyrical_and_Critical_Essays",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/4/4e/Lyrical_and_Critical_Essays.jpg",
+        "release": "1958"
+    },
+    {
+        "title": "Animal Farm",
+        "url": "https://www.goodreads.com/book/show/7613.Animal_Farm",
+        "cover": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg",
+        "release": "August 17, 1945"
+    },
+    {
+        "title": "Read People Like a Book",
+        "url": "https://www.goodreads.com/book/show/58637937-read-people-like-a-book",
+        "cover": "https://m.media-amazon.com/images/I/71IpohYwH8L._AC_UF1000,1000_QL80_.jpg",
+        "release": "2021"
+    },
+    {
+        "title": "The Department of Truth Vol. 1",
+        "url": "https://www.goodreads.com/book/show/56347161-the-department-of-truth-vol-1",
+        "cover": "https://m.media-amazon.com/images/I/91ozcU+8fHL._AC_UF1000,1000_QL80_.jpg",
+        "release": "May 25, 2021"
+    },
+    {
+        "title": "The Department of Truth Vol. 2",
+        "url": "https://www.goodreads.com/book/show/57455568-the-department-of-truth-vol-2",
+        "cover": "https://m.media-amazon.com/images/I/91Zm-F0brsS._AC_UF1000,1000_QL80_.jpg",
+        "release": "October 12, 2021"
+    },
+    {
+        "title": "The Yellow Wallpaper",
+        "url": "https://www.goodreads.com/book/show/30417433-the-yellow-wallpaper",
+        "cover": "https://m.media-amazon.com/images/I/81FvfzkM4qL._AC_UF1000,1000_QL80_.jpg",
+        "release": "January 1892"
+    },
+    {
+        "title": "The Metamorphosis",
+        "url": "https://www.goodreads.com/book/show/485894.The_Metamorphosis",
+        "cover": "https://m.media-amazon.com/images/I/71e5nY9sVQL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1915"
+    },
+    {
+        "title": "The Art of Living",
+        "url": "https://www.goodreads.com/book/show/116877.The_Art_of_Living",
+        "cover": "https://m.media-amazon.com/images/I/71aG+xDKSYL._AC_UF1000,1000_QL80_.jpg",
+        "release": "January 1, 1995"
+    },
+    {
+        "title": "The Fall",
+        "url": "https://www.goodreads.com/book/show/11991.The_Fall",
+        "cover": "https://m.media-amazon.com/images/I/71gBLuLThXL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1956"
+    },
+    {
+        "title": "No Longer Human",
+        "url": "https://www.goodreads.com/book/show/194746.No_Longer_Human",
+        "cover": "https://m.media-amazon.com/images/I/81y6s+CA1VL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1948"
+    },
+    {
+        "title": "The Setting Sun",
+        "url": "https://www.goodreads.com/book/show/96491.The_Setting_Sun",
+        "cover": "https://m.media-amazon.com/images/I/71XpIUAIvJL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1947"
+    },
+    {
+        "title": "The Stranger",
+        "url": "https://www.goodreads.com/book/show/49552.The_Stranger",
+        "cover": "https://m.media-amazon.com/images/I/71UG9h5lABL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1942"
+    },
+    {
+        "title": "White Nights",
+        "url": "https://www.goodreads.com/book/show/718888.White_Nights",
+        "cover": "https://m.media-amazon.com/images/I/81DnK9rgG0L._AC_UF1000,1000_QL80_.jpg",
+        "release": "1848"
+    },
+    {
+        "title": "The Art of War",
+        "url": "https://www.goodreads.com/book/show/10534.The_Art_of_War",
+        "cover": "https://m.media-amazon.com/images/I/91s9UzKQGGL._AC_UF1000,1000_QL80_.jpg",
+        "release": "5th century BC"
+    },
+    {
+        "title": "Meditations",
+        "url": "https://www.goodreads.com/book/show/30659.Meditations",
+        "cover": "https://m.media-amazon.com/images/I/81RQydFdpDL._AC_UF1000,1000_QL80_.jpg",
+        "release": "180 AD"
+    },
+    {
+        "title": "The Boy, the Mole, the Fox and the Horse",
+        "url": "https://www.goodreads.com/book/show/43708884-the-boy-the-mole-the-fox-and-the-horse",
+        "cover": "https://m.media-amazon.com/images/I/81V9F+2uQkL._AC_UF1000,1000_QL80_.jpg",
+        "release": "October 10, 2019"
+    },
+    {
+        "title": "The 7 Habits of Highly Effective Teens",
+        "url": "https://www.goodreads.com/book/show/300789.The_7_Habits_of_Highly_Effective_Teens",
+        "cover": "https://m.media-amazon.com/images/I/81p8L2KRB2L._AC_UF1000,1000_QL80_.jpg",
+        "release": "October 31, 1997"
+    },
+    {
+        "title": "Crime and Punishment",
+        "url": "https://www.goodreads.com/book/show/7144.Crime_and_Punishment",
+        "cover": "https://m.media-amazon.com/images/I/91qkDCgGHvL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1866"
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "url": "https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray",
+        "cover": "https://m.media-amazon.com/images/I/81AFocW+JBL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1890"
+    },
+    {
+        "title": "The Death of Ivan Ilych",
+        "url": "https://www.goodreads.com/book/show/212346.The_Death_of_Ivan_Ilych",
+        "cover": "https://m.media-amazon.com/images/I/81KykiQU-nL._AC_UF1000,1000_QL80_.jpg",
+        "release": "1886"
     }
-  ]
+]
+  
+  
 }
