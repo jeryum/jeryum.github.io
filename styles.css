@@ -175,15 +175,9 @@
         .project-links {
             display: flex;
             gap: 1rem;
-        
-            
-            
-            
-            
-            
+        flex-wrap: wrap;      
             
         }
-
         .project-links a {
             color: var(--t2);
             background-color:#101010 ;
