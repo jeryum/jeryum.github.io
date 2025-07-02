@@ -125,8 +125,11 @@
 
  .projects-grid-ict {
             display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Force 2 items per row */
-  gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
         }
         
 
@@ -140,13 +143,11 @@
 
 .project-card-ict {
   background-color: var(--1);
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--br);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 100%;       /* Prevent overflow */
-  width: 100%;           /* Fill column */
-  box-sizing: border-box; /* Includes padding/border in width */
+  height: 100%;
 }
         .project-card:hover {
             transform: translateY(-10px);
@@ -242,6 +243,16 @@
             .projects-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .projects-grid-ict {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+            
+            .project-card-ict {
+                margin-bottom: 1rem;
+            }
         }
 /* Technology Stack Icons */
 .fa-html5 {
@@ -289,4 +300,24 @@
 }
 .project-desc i {
   margin-right: 0.2rem;
+}
+
+/* Center the h2 heading in the ICT section */
+section h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+section h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.project-card-ict:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
