@@ -58,7 +58,15 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease;
         }
-     
+        .fa-arrow-left {
+    
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    color: var(--t2);
+    cursor: pointer;
+}
 
         .profile-img:hover {
             transform: scale(1.05);
@@ -124,7 +132,14 @@
             gap: 2rem;
         }
 
- 
+ .projects-grid-ict {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
         
 
         .project-card {
@@ -133,14 +148,19 @@
             overflow: hidden;
             border: 1px solid var(--br);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin-bottom: 0.5rem;
         }
 
-
+.project-card-ict {
+  background-color: var(--1);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--br);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
         .project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-           
         }
 
         .project-img {
@@ -183,8 +203,21 @@
             
             
         }
+ .project-links a {
+            color: var(--t2);
+            background-color:#101010 ;
+            padding:0.5rem;
+            border:1px solid #AAAAAA;
+            text-align: center;
+            font-size: 2.5rem;
+            width: 3rem;
+            border-radius:1rem;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-        .project-links a {
+        .project-links-ict a {
             color: var(--t2);
             background-color:#101010 ;
             padding:0.5rem;
@@ -262,12 +295,12 @@
             }
 
             .project-links {
-                flex-direction: row;
+                flex-direction: column;
                 gap: 0.5rem;
             }
 
             .project-links a {
-                
+                width: 100%;
                 padding: 0.4rem;
             }
         }
