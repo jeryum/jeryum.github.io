@@ -2,139 +2,189 @@
 
 section {
     justify-content: flex-start;
-    height: 140vh;
-    position:relative;
-    top:-3em;
+    min-height: 100vh;
+    position: relative;
+    padding: 20px;
+    width: 100%;
 }
-.choices2{
-   display: flex;
+
+.choices2 {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background:     var( --tertiary-color);
-    padding:100px 60px;
-    overflow-x: hidden;
+    background: var(--tertiary-color);
+    padding: 40px 20px;
     text-align: center;
-    border: 2px solid var( --quinary-color);
+    border: 2px solid var(--quinary-color);
     position: relative;
-    width: 300px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
-    
-    overflow: hidden;
-    
-   
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    margin: 20px auto;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    gap:15px;
-    width:1.5rem;
+    gap: 15px;
+    width: 100%;
+    max-width: 300px;
 }
 
-#zodiaclogo{
-   position: relative;
-   top:-1rem;
+#zodiaclogo {
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 input {
     outline: 0;
-  border-width: 0 0 2px;
-  border-color:var( --quinary-color);
-    background: var( --tertiary-color);
-  color: var(--primary-color);
-  text-align: center;
-  font-size: 25px;
-  width: 12rem;
-  padding: 0.5;
+    border-width: 0 0 2px;
+    border-color: var(--quinary-color);
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    width: 100%;
+    max-width: 12rem;
+    padding: 0.5rem;
 }
-#res{
+
+#res {
     display: block;
     font-weight: 600;
-    color: var( --quinary-color);
-    position: relative;
-   
-   
-  
+    color: var(--quinary-color);
+    margin: 1rem 0;
 }
-#result{
+
+#result {
     position: relative;
-  padding:5px;
+    padding: 5px;
     display: inline;
 }
 
-
-p{
-    font-size: 35px;
+p {
+    font-size: clamp(1.2rem, 3vw, 2.2rem);
     text-align: center;
     display: inline;
 }
 
 #date {
     outline: 0;
- color:var(--primary-color);
-  border-color: var( --quinary-color);
-  background: var( --tertiary-color);
-  width:auto;
-  font-size: 30px;
- padding:10px;
-padding-bottom: 1.5rem;
- position: relative;
- top:20px;
- 
+    color: var(--primary-color);
+    border: 2px solid var(--quinary-color);
+    background: var(--tertiary-color);
+    width: 100%;
+    max-width: 250px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+#date:hover {
+    border-color: var(---quaternary-color);
+}
+
+#date:focus {
+    border-color: var(---quaternary-color);
+    box-shadow: 0 0 0 2px rgba(17, 255, 0, 0.1);
+}
+
 input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator
- {
+input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
 }
-.horos-res{
+
+.horos-res {
     display: flex;
     flex-direction: column;
     text-align: center;
     position: relative;
     justify-content: center;
-  padding:20px;
-  align-items: center;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 h3 {
     position: relative;
-    top:30px;
-    color:var(--primary-color);
+    margin-top: 1rem;
+    color: var(--primary-color);
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
-#zodiacDescription{
-    font-size: 10px;
-    
+#zodiacDescription {
+    color: var(--quinary-color);
+    position: relative;
+    font-size: clamp(0.875rem, 2vw, 1.25rem);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    line-height: 1.6;
 }
 
 img {
-    width:270px;
-    height:230px;
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    aspect-ratio: 1.17;
     display: block;
-    display: flex;
-    border:2px solid var( --quinary-color);
-    
-    }
-
-#zodiacDescription{
-    color:var( --quinary-color);
-    position: relative;
-    top:20px;
-    font-size:20px;
-    text-align: center;
-    padding:20px;
- width: auto;
- 
-    
-    
+    margin: 1rem auto;
+    border: 2px solid var(--quinary-color);
+    border-radius: 8px;
 }
 
 #zodiacDescription > a {
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 1.25rem);
     color: var(--primary-color);
-    text-decoration-line:underline ;
-    width:auto;
+    text-decoration-line: underline;
+}
+
+/* Add button styles */
+.calculate-btn {
+    background: var(--tertiary-color);
+    color: var(---quaternary-color);
+    border: 2px solid var(---quaternary-color);
+    padding: 10px 20px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.calculate-btn:hover {
+    background: var(---quaternary-color);
+    color: var(--secondary-color);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .choices2 {
+        padding: 30px 15px;
+    }
+    
+    .horos-res {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .choices2 {
+        padding: 20px 10px;
+    }
+    
+    img {
+        max-width: 200px;
+    }
+    
+    #zodiacDescription {
+        padding: 10px;
+    }
 }
