@@ -13,6 +13,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap:2rem;
     background: var(--tertiary-color);
     padding: 40px 20px;
     text-align: center;
@@ -21,7 +22,7 @@ section {
     width: 100%;
     max-width: 300px;
     min-height: 200px;
-    margin: 20px auto;
+    
 }
 
 .inputs {
@@ -34,7 +35,7 @@ section {
 
 #zodiaclogo {
     position: relative;
-    margin-bottom: 1rem;
+    top:5px;
 }
 
 input {
