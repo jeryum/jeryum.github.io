@@ -34,9 +34,11 @@
         }
 
         .container {
+        
             max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
+            
         }
 
         header {
@@ -214,11 +216,16 @@
 
         @media (max-width: 768px) {
             .container {
+            
                 padding: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                gap:5rem;
+                
             }
             
             header {
-                padding: 2rem 0;
+                padding: 10rem 0;
             }
             
             h1 {
