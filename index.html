@@ -18,7 +18,29 @@
             <h1>Jerome M Abanda</h1>
             <p class="bio" data-aos="fade-right" data-aos-delay="150" >
                 i dont know.
-              
+              <p>This page has been viewed <span id="counter">...</span> times.</p>
+
+<script>
+  const workspace = "jeryum"; // e.g., my-github-pages
+  const counterKey = "jirum"; // whatever you named the counter
+  const token = "ut_5YOfIFC06gIHOS1VIJ4Y42SfahvOoyYVHnl1sNNZ"; // paste your actual token here
+
+  fetch(`https://counterapi.dev/api/v1/${workspace}/${counterKey}/hit`, {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${token}`,
+      "Content-Type": "application/json"
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("counter").textContent = data.count;
+  })
+  .catch(err => {
+    console.error("Error updating counter:", err);
+    document.getElementById("counter").textContent = "error";
+  });
+</script>
             </p>
             <div class="social-links" data-aos="fade-left" data-aos-delay="150" >
                 <a href="https://github.com/jeryum" target="_blank"><i class="fab fa-github"></i></a>
