@@ -1,166 +1,194 @@
 :root {
-    --1: #151515;   /* Dark gray - Primary content background or text */
-    --2: #202020;   /* Slightly lighter dark gray - Secondary content or borders */
-    --4: #404040;   /* Medium gray - Accents or buttons */
-    --br: #303030;  /* Border color - Dark gray for borders */
-    --bg: #000000;  /* Black - Page background */
-    --pbg: #101010; /* Almost black - Panel background or containers */
-    --t1: #FFFFFF;  /* White - Primary text */
-    --t2: #AAAAAA;  /* Light gray - Secondary text */
-    --t3: #444444;  /* Darker gray - Tertiary text or disabled elements */
+    --primary: #151515;
+    --secondary: #202020;
+    --accent: #404040;
+    --border: #303030;
+    --background: #000000;
+    --container-bg: #101010;
+    --text-primary: #FFFFFF;
+    --text-secondary: #AAAAAA;
+    --text-muted: #444444;
+    --shadow: rgba(0, 0, 0, 0.2);
+    --transition: all 0.3s ease;
 }
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    color: var(--t1);
-    background-color: var(--bg);
-    text-decoration: none;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--primary);
+    padding: 1rem;
+    box-shadow: 0 2px 4px var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-primary);
     text-align: center;
 }
 
-.input {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
-
-.category {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-}
-
-.areas {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    font-size: 10px;
-}
-.meal {
-    background-color: var(--4); /* Medium gray */
-    padding: 12px;
-    width: 200px;
-    height: 200px;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--t1); /* White text */
-}
-
+/* Container and Section Styles */
 .container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-}
-
-.btn {
-    text-decoration: none;
-    background-color: var(--2); /* Slightly lighter gray for buttons */
-    color: var(--t1); /* White text */
-    width: 100%;
-    border-radius: 12px;
-    padding: 12px;
-    text-align: center;
-}
-
-.title {
-    font-size: 25px;
-    color: var(--t1); /* Primary white text */
-    text-decoration:none ;
-}
-
-nav {
-    padding: 24px;
-    width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--1); /* Dark gray nav background */
-    border-bottom: 1px solid var(--br); /* Border color */
+    padding: 2rem 1rem;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.search-section {
+    margin-bottom: 2rem;
 }
 
-ul li {
-    list-style: none;
-}
-
-a {
-    color: var(--t1); /* White for links */
-}
-
-a:hover {
-    color: var(--t2); /* Light gray for hover effect */
-}
-
-#meal-details-container {
-    padding-left: 20%;
-}
-.meal-details{
-    width: 70%;
-   display: flex;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.meal-details img {
-    width: 20rem;
-}
-
-.meal-image {
-    width: 20%;
-    height: auto;
-    border-radius: 12px;
-}
-
-.ingredient-image {
-    width: 90rem; /* Adjust size as needed */
-    height:55rem;
-    border-radius: 8px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-#ing {
-    width: 100%;
-    height: 5rem;
+.search-box {
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 #SearchName {
-    border: none; /* Remove default borders */
-    border-bottom: 1.5px solid grey; /* Set bottom border */
-    outline: none; /* Remove outline on focus */
+    width: 100%;
+    max-width: 400px;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--secondary);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: var(--transition);
 }
 
-#btnSearch {
-    border: 1px solid grey;
+#SearchName:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent);
 }
 
-#a {
+/* Filters Section */
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.filter-group {
     text-align: center;
 }
 
-p {
-    padding:5px;
+.filter-group h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--text-secondary);
 }
 
-h2 {
+.select-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--secondary);
+    color: var(--text-primary);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.select-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+/* Meal Details Styles */
+.meal-details-section {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.meal-details {
+    background-color: var(--container-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+.meal-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+/* Ingredients Section */
+.ingredients-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.ingredient-card {
+    background-color: var(--container-bg);
+    border-radius: 12px;
+    padding: 1rem;
     text-align: center;
+    transition: var(--transition);
+}
+
+.ingredient-card:hover {
+    transform: translateY(-5px);
+}
+
+.ingredient-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .filters {
+        grid-template-columns: 1fr;
+    }
+
+    .meal-details {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    #SearchName {
+        font-size: 0.9rem;
+    }
+
+    .filter-group h2 {
+        font-size: 1rem;
+    }
 }
 
 
