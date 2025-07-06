@@ -204,6 +204,12 @@
         "cover": "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
         "release": "October 3, 2002"
     },
+       {
+        "title": "Mushoku Tensei",
+        "url": "https://myanimelist.net/anime/20/Naruto",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wA1_LrP_tgob66REyhFuPkLm_Y4zWD8JhkzEqwO6bHrQ-MSL59Vme38&s=10",
+        "release": "October 3, 2002"
+    },
     {
         "title": "Ninja Kamui",
         "url": "https://myanimelist.net/anime/54217/Ninja_Kamui",
@@ -343,6 +349,19 @@
         "cover": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
         "release": "October 15, 1999"
     },
+     {
+        "title": "A man called otto",
+        "url": "https://www.imdb.com/title/tt0137523/",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNYo0DCUocc_c9fPESYM5FnKnXOTZ5u9zrZeIiwbGs6g-AN_w-oQvGhzhehEz3hgzfSTlN2HQRuzRXo51ABXn-DWl5uf58tst2ej7nog",
+        "release": "October 15, 1999"
+    },
+    {
+        "title": "Forest gump",
+        "url": "https://www.imdb.com/title/tt0097165/",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnY3cBm4wq9F1REPhfSgi9YJAFyaUc4N4w1yvQWHJdmVC6DFilWiGx9Rhz&s=10",
+        "release": ""
+    },
+    
     {
         "title": "The Matrix",
         "url": "https://www.imdb.com/title/tt0133093/",
