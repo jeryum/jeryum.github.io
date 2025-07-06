@@ -379,3 +379,75 @@ section h2::after {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
+
+.back-button {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--1);
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid var(--br);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.back-button:hover {
+    transform: translateX(-5px);
+    background-color: var(--2);
+    border-color: var(--t2);
+}
+
+.back-button .fa-arrow-left {
+    font-size: 1.2rem;
+    color: var(--t2);
+    transition: color 0.3s ease;
+}
+
+.back-text {
+    color: var(--t2);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.back-button:hover .fa-arrow-left,
+.back-button:hover .back-text {
+    color: var(--t1);
+}
+
+@media (max-width: 768px) {
+    .back-button {
+        top: 1.5rem;
+        left: 1.5rem;
+        padding: 0.6rem 1rem;
+    }
+    
+    .back-button .fa-arrow-left {
+        font-size: 1rem;
+    }
+    
+    .back-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .back-button {
+        top: 1rem;
+        left: 1rem;
+        padding: 0.5rem;
+    }
+    
+    .back-text {
+        display: none;
+    }
+    
+    .back-button:hover {
+        transform: translateX(-3px);
+    }
+}

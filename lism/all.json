@@ -349,19 +349,12 @@
         "cover": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
         "release": "October 15, 1999"
     },
-     {
-        "title": "A man called otto",
-        "url": "https://www.imdb.com/title/tt0137523/",
-        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNYo0DCUocc_c9fPESYM5FnKnXOTZ5u9zrZeIiwbGs6g-AN_w-oQvGhzhehEz3hgzfSTlN2HQRuzRXo51ABXn-DWl5uf58tst2ej7nog",
-        "release": "October 15, 1999"
-    },
     {
-        "title": "Forest gump",
-        "url": "https://www.imdb.com/title/tt0097165/",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnY3cBm4wq9F1REPhfSgi9YJAFyaUc4N4w1yvQWHJdmVC6DFilWiGx9Rhz&s=10",
-        "release": ""
+        "title": "A Man Called Otto",
+        "url": "https://www.imdb.com/title/tt7405458/",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNYo0DCUocc_c9fPESYM5FnKnXOTZ5u9zrZeIiwbGs6g-AN_w-oQvGhzhehEz3hgzfSTlN2HQRuzRXo51ABXn-DWl5uf58tst2ej7nog",
+        "release": "January 13, 2023"
     },
-    
     {
         "title": "The Matrix",
         "url": "https://www.imdb.com/title/tt0133093/",
@@ -426,7 +419,6 @@
   
 
   "game": [
-   
     {
         "title": "Asura's Wrath (PS3)",
         "url": "https://m.imdb.com/title/tt12345678/",
@@ -455,7 +447,7 @@
         "title": "Final Fantasy VII (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
         "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Dirgeofcerberususbox.jpg/250px-Dirgeofcerberususbox.jpg",
-        "release": "January 31, 1997 (Original)"
+        "release": "January 31, 1997"
     },
     {
         "title": "God of War (PS2)",
@@ -481,14 +473,13 @@
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4W9CTRiL9Bzg-IlU7xSPJYQ0te02KAtIaSJGALZ-W0IhSzC4evl0NSaE&s=10",
         "release": "September 19, 2008"
     },
-    
     {
         "title": "Need for Speed: Most Wanted (PS2)",
         "url": "https://m.imdb.com/title/tt12345678/",
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfuqw4didELK_zoHP3bDGBWBgqXGU_n_j0H2vyq-z-3UQatslSriY8-s&s=10",
         "release": "November 15, 2005"
     },
-     {
+    {
         "title": "Mobile Legends: Bang Bang",
         "url": "https://m.imdb.com/title/tt12345678/",
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46EqlOS2Hrs8HKQXlTIe1VfmYM5Q73t9_mp_r4kEFUPuiPXmYBSX_0T0&s=10",
@@ -499,42 +490,6 @@
         "url": "https://m.imdb.com/title/tt23456789/",
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLebkSRHht-tbkCZs4W7K9kjh_a3t_lIl_cJu75YIBTdx5vtXd479iho&s=10",
         "release": "August 2, 2012"
-    },
-    {
-        "title": "Chess.com",
-        "url": "https://www.chess.com",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-P2-SILSeGVlSegJ7ko8Hz1EELiRr44dpDHr5QHXFf89brKsFlga22lI&s=10",
-        "release": "2007"
-    },
-    {
-        "title": "Lichess.org",
-        "url": "https://lichess.org",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFfOO5wFD-wmg-zsbUOu0cpvLYXQwXLV_PoZscZIkzClQ1W5pWaCtnoxA&s=10",
-        "release": "June 20, 2010"
-    },
-    {
-        "title": "Sudoku.com",
-        "url": "https://en.wikipedia.org/wiki/Sudoku",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZV9UzAyHtQAq4m6meso9D1wnJ42ZBe9Y3lFYqHBbq9kQ7xXE5MI7esg&s=10",
-        "release": "1979 (Modern)"
-    },
-    {
-        "title": "Roblox",
-        "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShwIHk8dDRPJ1wwu3iyDvaCFhbGAcOyhTl7CTHmcMw-Ao3f34k9eJmJkMA&s=10",
-        "release": "September 1, 2006"
-    },
-    {
-        "title": "League of Legends: Wild Rift",
-        "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOZuub-4AFUH2Gyds8KCXyoc2Hr8eLt5dq1pDLsDdNArkCtIxpstguVE&s=10",
-        "release": "October 27, 2020"
-    },
-    {
-        "title": "Call of Duty: Mobile",
-        "url": "https://m.imdb.com/title/tt12345678/",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlaxIiNCxYDoGy2wSTSSffeTlW-dTcKQvAs3reWxQvOzTYtyNeEphQYROp&s=10",
-        "release": "October 1, 2019"
     }
 ],
 

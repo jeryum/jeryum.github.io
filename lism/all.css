@@ -41,18 +41,30 @@ body {
 
 .fa-arrow-left {
     background: var(--3);
-    font-size: 2rem;
-    transition: transform 0.3s ease;
-    border-radius: 2rem;
-    padding: 0.8rem;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    padding: 1.2rem;
     color: var(--text-2);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .fa-arrow-left:hover {
-    transform: translateX(-3px);
+    transform: translateX(-5px);
     color: var(--text-1);
     background: var(--4);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.fa-arrow-left:active {
+    transform: translateX(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .option {
@@ -296,6 +308,11 @@ a {
     .list-title {
         font-size: 1.4rem;
     }
+
+    .fa-arrow-left {
+        padding: 1rem;
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -334,6 +351,11 @@ a {
 
     .list > i {
         font-size: 1.8rem;
+    }
+
+    .fa-arrow-left {
+        padding: 0.9rem;
+        font-size: 1.5rem;
     }
 }
 

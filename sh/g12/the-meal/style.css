@@ -125,41 +125,83 @@ body {
     width: 100%;
     max-width: 800px;
     box-shadow: 0 4px 6px var(--shadow);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
 }
 
 .meal-details img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 12px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px var(--shadow);
+    transition: var(--transition);
+}
+
+.meal-details img:hover {
+    transform: scale(1.02);
+}
+
+.meal-details h2 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.meal-details p {
+    color: var(--text-secondary);
     margin-bottom: 1.5rem;
+    line-height: 1.8;
 }
 
 /* Ingredients Section */
 .ingredients-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
     margin-top: 2rem;
+    padding: 1rem;
 }
 
 .ingredient-card {
     background-color: var(--container-bg);
     border-radius: 12px;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
+    box-shadow: 0 4px 6px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ingredient-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 12px var(--shadow);
 }
 
 .ingredient-image {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-bottom: 1rem;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.ingredient-card h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.ingredient-card p {
+    color: var(--text-secondary);
+    font-size: 1rem;
 }
 
 /* Responsive Design */
@@ -173,7 +215,21 @@ body {
     }
 
     .meal-details {
-        padding: 1rem;
+        padding: 1.5rem;
+    }
+
+    .meal-details img {
+        height: 300px;
+    }
+
+    .ingredients-section {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .ingredient-image {
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -188,6 +244,15 @@ body {
 
     .filter-group h2 {
         font-size: 1rem;
+    }
+
+    .meal-details img {
+        height: 250px;
+    }
+
+    .ingredient-image {
+        width: 120px;
+        height: 120px;
     }
 }
 
