@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: "channel", dataKey: "channel", className: "channel" },
         { id: "books", dataKey: "books", className: "books" },
         { id: "manga", dataKey: "manga", className: "manga" },
-        { id: "manhwa", dataKey: "manhwa", className: "manhwa" }
+   { id: "manhwa", dataKey: "manhwa", className: "manhwa" },
+   { id: "animem", dataKey: "animem", className: "animem" }
     ];
 
     console.log("Starting to fetch JSON data...");

@@ -969,7 +969,415 @@
     }
 ],
   
-  
+ "animem": [
+    {
+        "title": "Paprika",
+        "artist": "Satoshi Kon",
+        "url": "https://myanimelist.net/anime/1943/Paprika",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZmG8g2z2M_nOrojXJsohwUfJ3HBq1iSTKsPub6Mje4VZ1BzuznyOwV0&s=10",
+        "release": "2006"
+    },
+    {
+        "title": "Perfect Blue",
+        "artist": "Satoshi Kon",
+        "url": "https://myanimelist.net/anime/437/Perfect_Blue",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzAwNDIzMzEtZDZkNC00ZDQ4LTk3ZDMtZjVhMTU2YzgzZTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "release": "1997"
+    },
+    {
+        "title": "Pom Poko",
+        "artist": "Isao Takahata",
+        "url": "https://myanimelist.net/anime/1184/Heisei_Tanuki_Gassen_Pom_Poko",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xiVTuiZMN6LHRMkM-FWClRADZqX-8nO6WR3xgIOi2hBNyQ5IJwpDPE7S&s=10",
+        "release": "1994"
+    },
+    {
+        "title": "Ponyo",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/2890/Gake_no_Ue_no_Ponyo",
+        "cover": "https://cdn.myanimelist.net/images/anime/7/8970.jpg",
+        "release": "2008"
+    },
+    {
+        "title": "Porco Rosso",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/116/Kurenai_no_Buta",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ19yXTmIhWsu9r6wcU5oi3TWLaYAGdLYadCylwxa1HRhBrJse1wPTuKot6&s=10",
+        "release": "1992"
+    },
+    {
+        "title": "The Tale of the Princess Kaguya",
+        "artist": "Isao Takahata",
+        "url": "https://myanimelist.net/anime/16664/Kaguya-hime_no_Monogatari",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJMWdGWb1XvETrtbZdGXq9fKSQF49vUis3Ug&usqp=CAU",
+        "release": "2013"
+    },
+    {
+        "title": "Princess Mononoke",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/164/Mononoke_Hime",
+        "cover": "https://i.ibb.co/93Tfjx4M/Princess-Mononoke.jpg",
+        "release": "1997"
+    },
+    {
+        "title": "Puparia",
+        "artist": "Shingo Tamagawa",
+        "url": "https://myanimelist.net/anime/42866/Puparia",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-52YpfQ98FtNA507qo8Hyq_VVoUOxhLMN_MkLWTVLUqqcN3mov1dVEon&s=10",
+        "release": "2020"
+    },
+    {
+        "title": "Ryoujin Z",
+        "artist": "Hiroyuki Kitakubo",
+        "url": "https://myanimelist.net/anime/1978/Roujin_Z",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDoeJChmuylwGWCCVeOLrBeDEfMWuk5CMYtvwYbl5ecVYNhppGW_Iesnn&s=10",
+        "release": "1991"
+    },
+    {
+        "title": "Spirited Away",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "release": "2001"
+    },
+    {
+        "title": "Spy x Family Movie: Code: White",
+        "artist": "Kazuhiro Furuhashi",
+        "url": "https://myanimelist.net/anime/54813/Spy_x_Family_Movie__Code__White",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1y0nAAohyjatR44glpH0kyO3APXdlxAc9fmtTm5dHdUQCK_VzOpgiJA&s=10",
+        "release": "2023"
+    },
+    {
+        "title": "Tales from Earthsea",
+        "artist": "Goro Miyazaki",
+        "url": "https://myanimelist.net/anime/1498/Gedo_Senki",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTSfh6-mZ2qe2bOs05ni1Ljx6trlOAXJ4eYAVUHvxQMy1dNYNlSGC2rKmemOJG9PngMFtV9LBOYiON3HTGCXmbxej_irjs7UJTXzmRQ",
+        "release": "2006"
+    },
+    {
+        "title": "Angel's Egg",
+        "artist": "Mamoru Oshii",
+        "url": "https://myanimelist.net/anime/1122/Tenshi_no_Tamago",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNJaupCCIhg3KFtQXh74wN133wWVMJzZO6Jd6lvQrlD5iTum4b3ByS8gc&s=10",
+        "release": "1985"
+    },
+    {
+        "title": "The Secret World of Arrietty",
+        "artist": "Hiromasa Yonebayashi",
+        "url": "https://myanimelist.net/anime/7711/Karigurashi_no_Arrietty",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlROHY8DfZnJE0GsXYUgGC1vCvJ-5PgO7iRnX9C2PYlBN60GZetBvrz1U&s=10",
+        "release": "2010"
+    },
+    {
+        "title": "The Boy and the Beast",
+        "artist": "Mamoru Hosoda",
+        "url": "https://myanimelist.net/anime/28755/Bakemono_no_Ko",
+        "cover": "https://musicart.xboxlive.com/7/11f14600-0000-0000-0000-000000000002/504/image.jpg",
+        "release": "2015"
+    },
+    {
+        "title": "The Boy and the Heron",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/52991/Kimitachi_wa_Dou_Iku_Ka",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "release": "2023"
+    },
+    {
+        "title": "The Cat Returns",
+        "artist": "Hiroyuki Morita",
+        "url": "https://myanimelist.net/anime/478/Neko_no_Ongaeshi",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAduq2KOBELbMTkFsybIhqeR2dp8VgLh7McIV_0_GWSNs4q9SlZk86kxI&s=10",
+        "release": "2002"
+    },
+    {
+        "title": "The Wind Rises",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/16662/Kaze_Tachinu",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_QwrejA4UVYnvBfAX8WBQ6GWrc1USUHnwxQ9YoHVkDAdPrinb5OayjY8UqasJ7scLieWjWFGlQxotDfaSIujaYYrA5rEwemBQ4fO4Sw",
+        "release": "2013"
+    },
+    {
+        "title": "Tokyo Godfathers",
+        "artist": "Satoshi Kon",
+        "url": "https://myanimelist.net/anime/759/Tokyo_Godfathers",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmEzNDcwYzQtMzM0Zi00YWYxLTkzOWEtY2Y0ZTJiNDVjM2NkXkEyXkFqcGc@._V1_.jpg",
+        "release": "2003"
+    },
+    {
+        "title": "Wolf Children",
+        "artist": "Mamoru Hosoda",
+        "url": "https://myanimelist.net/anime/12355/Ookami_Kodomo_no_Ame_to_Yuki",
+        "cover": "https://resizing.flixster.com/PE-K7_znYoO7QrVrwgBeLjiy_IQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzZjODYwMGM5LTMzYTQtNDljNC1hOGI5LTgxNzZjMzFkYTE4Zi5qcGc=",
+        "release": "2012"
+    },
+    {
+        "title": "When Marnie Was There",
+        "artist": "Hiromasa Yonebayashi",
+        "url": "https://myanimelist.net/anime/21603/Omoide_no_Marnie",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9j8Bzy66Qbg0Ha3T9MWzIuXc6jtPQsZ3T19wMtFhojaea4Qyn3tdl-mA&s=10",
+        "release": "2014"
+    },
+    {
+        "title": "Your Name",
+        "artist": "Makoto Shinkai",
+        "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxT6cCMSz4BhpeCiQ9gtW2Ee5HFE5h83joxrm-YjJf-LTF5PtS4wg-WKru&s=10",
+        "release": "2016"
+    },
+    {
+        "title": "Yowamushi Pedal Movie",
+        "artist": "Osamu Nabeshima",
+        "url": "https://myanimelist.net/anime/32915/Yowamushi_Pedal__Movie",
+        "cover": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15494351_v_v8_ae.jpg",
+        "release": "2015"
+    },
+    {
+        "title": "Yowamushi Pedal: Re:ROAD",
+        "artist": "Osamu Nabeshima",
+        "url": "https://myanimelist.net/anime/32916/Yowamushi_Pedal__Re_ROAD",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdttC5i0wJngoFJ-6iBjIlq-Yl7uJa3LDL3Nidq9VtCyDjhKOl-eD9F5sj&s=10",
+        "release": "2015"
+    },
+    {
+        "title": "Yowamushi Pedal: Spare Bike",
+        "artist": "Osamu Nabeshima",
+        "url": "https://myanimelist.net/anime/32917/Yowamushi_Pedal__Spare_Bike",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReE_YT-5BC5wKlgn33f57lAIra4cyhFp0SjI0YpSruPnN7TW6sSVZDpww&s=10",
+        "release": "2015"
+    },
+    {
+        "title": "Yowamushi Pedal: Special Ride",
+        "artist": "Osamu Nabeshima",
+        "url": "https://myanimelist.net/anime/32918/Yowamushi_Pedal__Special_Ride",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIgOp_dgWrum0HLTyfdoteqgjsRH55Bc-7V_2NmWzLOiBruCVE8qyHH0bp&s=10",
+        "release": "2015"
+    },
+    {
+        "title": "5 Centimeters Per Second",
+        "artist": "Makoto Shinkai",
+        "url": "https://myanimelist.net/anime/1689/Byousoku_5_Centimeter",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD40Nfs7gSlUxsMp_LGs3aGyxGhhFIj6IrbVVr83V2arW24S2OXDcIKtI&s=10",
+        "release": "2007"
+    },
+    {
+        "title": "A Kite",
+        "artist": "Yasuomi Umetsu",
+        "url": "https://myanimelist.net/anime/1001/Kite",
+        "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_-UdHFkpS4h6TYQtFqA9xRdaWy-P0MiyIxLBVYXJybaW9VmJ-Gd93PNq33w6wMWN3p-WRX5i0FlDmkKcKSzsY4Yvrrc7dQMGzLdYxbw",
+        "release": "1998"
+    },
+    {
+        "title": "A Silent Voice",
+        "artist": "Naoko Yamada",
+        "url": "https://myanimelist.net/anime/28851/Koe_no_Katachi",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG_i6eMzzm0s92idpFKfe4bjfy7QrqbsAN_w&usqp=CAU",
+        "release": "2016"
+    },
+    {
+        "title": "Akira",
+        "artist": "Katsuhiro Otomo",
+        "url": "https://myanimelist.net/anime/47/Akira",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-Bu6-CFr99e808tUOB6ogjzZVqsLTXgZR8BDl4wS-5wvsteBMCFaVbM&s=10",
+        "release": "1988"
+    },
+    {
+        "title": "Anohana: The Movie",
+        "artist": "Tatsuyuki Nagai",
+        "url": "https://myanimelist.net/anime/16049/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai__Movie",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTc1NzEwOTU0MV5BMl5BanBnXkFtZTgwNTMxMzY5MDE@._V1_FMjpg_UX1000_.jpg",
+        "release": "2013"
+    },
+    {
+        "title": "Barefoot Gen 2",
+        "artist": "Toshio Hirata",
+        "url": "https://myanimelist.net/anime/2850/Hadashi_no_Gen_2",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqcrcWIugOD-7n1936foxQtLJTqld8ExYPIdytH0MCvrGTOA-nVgPvySE&s=10",
+        "release": "1986"
+    },
+    {
+        "title": "Belladonna of Sadness",
+        "artist": "Eiichi Yamamoto",
+        "url": "https://myanimelist.net/anime/2236/Kanashimi_no_Beradonna",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoMV0wzQM6FPDlSQsHYwWsmaholWa2YCTsYxlogFzFK2aupXjO8apJHQ&s=10",
+        "release": "1973"
+    },
+    {
+        "title": "My Hero Academia: All Might Rising",
+        "artist": "Kenji Nagasaki",
+        "url": "https://myanimelist.net/anime/40756/Boku_no_Hero_Academia__All_Might__Rising_The_Animation",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1ceKzgX45FFSCAT0jeE0ggncdgGu9Ll4Xkjk3uTaac0RpXSihukD3Qm1F_yalQFzxmU3RI1utvsnuQM8GGOViJ4Tlb7_kD7_xltLA-4",
+        "release": "2019"
+    },
+    {
+        "title": "Demon Slayer: Mugen Train",
+        "artist": "Haruo Sotozaki",
+        "url": "https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha_Hen",
+        "cover": "https://demonslayer-anime.com/mugentrainarc/assets/img/kv.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "Dr. Stone: Ryuusui",
+        "artist": "Shinya Iino",
+        "url": "https://myanimelist.net/anime/50265/Dr_Stone__Ryuusui",
+        "cover": "https://i.ibb.co/zTB4hTVx/images.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Drifting Home",
+        "artist": "Hiroyasu Ishida",
+        "url": "https://myanimelist.net/anime/50265/Dr_Stone__Ryuusui",
+        "cover": "https://i.ibb.co/zTB4hTVx/images.jpg",
+        "release": "2022"
+    },
+    {
+        "title": "Earwig and the Witch",
+        "artist": "Goro Miyazaki",
+        "url": "https://myanimelist.net/anime/41467/Aya_to_Majo",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkMtRvNFNIKozkG-LbCSity8l79PLw3aY_M6hBQO3tr7voYZmITyVySASY&s=10",
+        "release": "2020"
+    },
+    {
+        "title": "From Up on Poppy Hill",
+        "artist": "Goro Miyazaki",
+        "url": "https://myanimelist.net/anime/10379/Kokuriko-zaka_kara",
+        "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTeOtDntZl_-qsiKaxLUkpBVzIufrkTIuaX9ZIN74WF5Ac-Cm1brprSPSmLBkKCUgAcd43q0SHxIXqlOv8mrwjnO2fpZ_vpzXs-T1psMA",
+        "release": "2011"
+    },
+    {
+        "title": "Grave of the Fireflies",
+        "artist": "Isao Takahata",
+        "url": "https://myanimelist.net/anime/578/Hotaru_no_Haka",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZgNskDBH4kuwO1aVB93_DgRmdru5rZJgJb5zvNyxhN6o99BmaHuoyT9Xf&s=10",
+        "release": "1988"
+    },
+    {
+        "title": "Barefoot Gen",
+        "artist": "Mori Masaki",
+        "url": "https://myanimelist.net/anime/2849/Hadashi_no_Gen",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCPe2dCTpVYPH3ylFSjw0bxtqywRA5poXQ0kQmnI_ARuEH45LLlip6sPI&s=10",
+        "release": "1983"
+    },
+    {
+        "title": "Hotarubi no Mori e",
+        "artist": "Takahiro Omori",
+        "url": "https://myanimelist.net/anime/10083/Hotarubi_no_Mori_e",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjTKv9X3K7y5lB0yxdP7ysNPJjygUJ0exMImy2amfE90oazhbITJI5zVH&s=10",
+        "release": "2011"
+    },
+    {
+        "title": "Howl's Moving Castle",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/431/Hauru_no_Undou_Koushaku",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9bwOYI9ZZWi2ChL8784t7egWrojbvZTykKfNntKJT4UOvtcVQg2DoDNztFqGY1MwxAchU94StIsfwRUu4iTvR2uYfAJga_HTqSaZA0To",
+        "release": "2004"
+    },
+    {
+        "title": "Jujutsu Kaisen 0",
+        "artist": "Sunghoo Park",
+        "url": "https://myanimelist.net/anime/44042/Jujutsu_Kaisen_0",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZpBuqlut5FEFpiWzb5X278cW9GZ_IpI3sdBSGIfnhtpIlg7fdAZ2UtxKMD--qHjDMpqLbIPIVOHFAmLM8YyvB6IHGaxe7ehf1VpMvNg",
+        "release": "2021"
+    },
+    {
+        "title": "Kiki's Delivery Service",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/512/Majo_no_Takkyuubin",
+        "cover": "https://i.ibb.co/HDvcQC9q/Kiki-s-Delivery-Service-English.jpg",
+        "release": "1989"
+    },
+    {
+        "title": "Demon Slayer: Hashira Meeting Arc",
+        "artist": "Haruo Sotozaki",
+        "url": "https://myanimelist.net/anime/41467/Aya_to_Majo",
+        "cover": "https://demonslayer-anime.com/hta/assets/img/img_kv.jpg",
+        "release": "2020"
+    },
+    {
+        "title": "The Garden of Words",
+        "artist": "Makoto Shinkai",
+        "url": "https://myanimelist.net/anime/16782/Kotonoha_no_Niwa",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpaxTyHsJyqlXhu1xiDTPhtJkMLdpQ8_-sXzd6IdW6oamHoYzCdQEDEFpATMP5TYoWFXZ666pf-JbEEMolyvCAQBHY8Ap6K9ePFZvbYw",
+        "release": "2013"
+    },
+    {
+        "title": "Castle in the Sky",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/513/Tenkuu_no_Shiro_Laputa",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE71PwnyDOJFmh8Gvp5QoYkVOYHQ_xtdft4K-4fPxyO8Q4qiabLtq_Jvu-dCSdKLGQJHOXkNvKWaBOBYYxqiegN0H7JR7b5NjULy6USg",
+        "release": "1986"
+    },
+    {
+        "title": "Mary and the Witch's Flower",
+        "artist": "Hiromasa Yonebayashi",
+        "url": "https://myanimelist.net/anime/33988/Mary_to_Majo_no_Hana",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGT2nGt01SReYUn4vzNC6ej0QNEW-YF9xG8VxnwkPN18IyuETrhJre-wGPO6HVLJ6W4f5o4ON6xr4taGFrtGfBIM6ZKyojoHd0fktvig",
+        "release": "2017"
+    },
+    {
+        "title": "Millennium Actress",
+        "artist": "Satoshi Kon",
+        "url": "https://myanimelist.net/anime/235/Sennen_Joou",
+        "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0aZwshN3S2HN9OfOIB9NnLgMq117OJwb7zp5ukKFZCtWtYip20drDw4UfdTZ__awvGAoAaA90X0ZDg_3ZFOwpieA_h7F7u8xDbGyTBQ",
+        "release": "2001"
+    },
+    {
+        "title": "My Neighbor Totoro",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/523/Tonari_no_Totoro",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbwjfbrSSJ3ABjZ5A378O__SGaosYHYsHSmpTAvX3JxTgD_zwc8pmcQM&s=10",
+        "release": "1988"
+    },
+    {
+        "title": "My Neighbors the Yamadas",
+        "artist": "Isao Takahata",
+        "url": "https://myanimelist.net/anime/1051/Houhokekyo_Tonari_no_Yamada-kun",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFx2T57HE9TcAPNtWP30Il4w2N78o2odNtLdHb_PVXQ3sAjk5iej9G_Dt9&s=10",
+        "release": "1999"
+    },
+    {
+        "title": "A Whisker Away",
+        "artist": "Junichi Sato",
+        "url": "https://myanimelist.net/anime/40052/Nakitai_Watashi_wa_Neko_wo_Kaburu",
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4gJlcEMlfpXU4bDSRzmGT92hlqUTynQXknd0nKmTJ7osVv4Phkr9yGK2D_u9nW0uNdL2Xdcc2G8YZBAIyIfW-JQyRNAgcYTnzQO2DBa4",
+        "release": "2020"
+    },
+    {
+        "title": "Nausicaä of the Valley of the Wind",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/572/Kaze_no_Tani_no_Nausicaa",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBQjdREGKWQ5etKgO1j8CHAmO1BDKnWrWcheL6HjHN3164eush18r3jE&s=10",
+        "release": "1984"
+    },
+    {
+        "title": "Ni no Kuni",
+        "artist": "Yoshiyuki Momose",
+        "url": "https://myanimelist.net/anime/37445/Ni_no_Kuni",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3GILorAl8cpXeBZrmY_nZElEmMMsLYYpJZqfr-2b85u4B5Io3-mzL6ylh&s=10",
+        "release": "2019"
+    },
+    {
+        "title": "Ninja Scroll",
+        "artist": "Yoshiaki Kawajiri",
+        "url": "https://myanimelist.net/anime/970/Juubee_Ninpuuchou",
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWQ2MmFjYmMtYjUwYS00MDExLWJjNDAtNDBhODM2NTk4OThiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "release": "1993"
+    },
+    {
+        "title": "Ocean Waves",
+        "artist": "Tomomi Mochizuki",
+        "url": "https://myanimelist.net/anime/1056/Umi_ga_Kikoeru",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToHa6dP1vGlW9VHPW4w-gpomxqUz0aJsj0_bh5xVSHwsNGChh_pS7zDlf6&s=10",
+        "release": "1993"
+    },
+    {
+        "title": "On Your Mark",
+        "artist": "Hayao Miyazaki",
+        "url": "https://myanimelist.net/anime/1314/On_Your_Mark",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaZlpyHrUK6zZCuuUWBy8xGVFp6DTuZGsr9ycLvKE4DBy95zydRR7fVwU&s=10",
+        "release": "1995"
+    }
+],
+ 
   
   
   
