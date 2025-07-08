@@ -118,14 +118,28 @@ section {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
-    padding: 10px;
+    padding: 1rem;
+   
     border-bottom: 1px solid var( --quinary-color);
 }
-
+.bmi-result {
+     font-size: 1.3rem;
+      color:var( --quinary-color);
+       
+}
+.result-container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full height of the viewport */
+  text-align: center;
+  padding:0 1rem;
+  flex-direction: column;
+}
 .result-title {
     color: var( ---quaternary-color);
     font: 20px Inter, sans-serif;
+    
 }
 
 .close {
@@ -147,17 +161,7 @@ section {
 
 
 
-.result-container {
-    width: auto;
-    height: auto;
-    padding: 60px;
-}
-.bmi-result {
-   font-size: 1.3rem;
-       color:var( --quinary-color);
-      display: inline;
-       text-align: center;
-}
+
 
 
 
