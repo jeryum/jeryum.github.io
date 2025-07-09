@@ -115,6 +115,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-radius: 16px;
     flex-direction: column;
     background: var(--tertiary-color);
     overflow: hidden;
