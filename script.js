@@ -1,4 +1,11 @@
+document.getElementById('scroll-arrow').addEventListener('click', function () {
+    document.getElementById('target').scrollIntoView({ behavior: 'smooth' });
+  });
+
+
     // Particles.js configuration
+    
+    
     document.addEventListener('DOMContentLoaded', function() {
         particlesJS('particles-js', {
             "particles": {
