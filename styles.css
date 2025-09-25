@@ -122,8 +122,11 @@
     left: 50%;
     transform: translateX(-50%);
     color: var(--t2); ; /* Light gray color for dark theme */
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
+    background: linear-gradient(to bottom right, #2080aa, #8020aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     
     opacity: 0;
   }
