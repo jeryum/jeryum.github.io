@@ -27,7 +27,23 @@
             color: var(--t1);
             overflow-x: hidden;
         }
+       .intj {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* palaging nakagitna horizontally */
+    align-items: center; /* palaging nakagitna vertically */
+    gap: 0;
+    flex-wrap: nowrap;
+}
 
+.intj h2 {
+    margin: 0; /* tanggalin extra margin */
+    top:1rem;
+}
+#in{
+    height: 10rem;
+}
         #particles-js {
             position: fixed;
             width: 100%;
