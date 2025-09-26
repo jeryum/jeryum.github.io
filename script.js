@@ -17,7 +17,7 @@ document.getElementById('scroll-arrow').addEventListener('click', function () {
                     }
                 },
                 "color": {
-                    "value": "#444"  // Changed from var(--t3) to #444
+                    "value": ["#2080aa", "#8020aa"]  // Changed from var(--t3) to #444
                 },
                 "shape": {
                     "type": "circle",
