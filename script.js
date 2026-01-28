@@ -2,6 +2,8 @@ document.getElementById('scroll-arrow').addEventListener('click', function () {
     document.getElementById('target').scrollIntoView({ behavior: 'smooth' });
   });
 
+// Dynamically set the current year
+document.getElementById('year').textContent = new Date().getFullYear();
 
     // Particles.js configuration
     
