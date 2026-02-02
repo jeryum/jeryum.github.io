@@ -2,177 +2,213 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags and SEO -->
     <meta charset="UTF-8">
     <meta name="description" content="Official portfolio of Jerome M Abanda. Web developer showcasing projects, skills, and contact information.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Jerome M Abanda",
-  "url": "https://jeryum.github.io",
-  "sameAs": [
-    "https://github.com/jeryum"
-  ]
-}
-</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jerome M Abanda",
+        "url": "https://jeryum.github.io",
+        "sameAs": [
+            "https://github.com/jeryum"
+        ]
+    }
+    </script>
+    
     <title>Jerome M Abanda | Portfolio</title>
+    
+    <!-- External stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Background particles animation -->
     <div id="particles-js"></div>
+    
+    <!-- Main content container -->
     <div class="container">
+        <!-- Header section with profile and social links -->
         <header>
-            <div style="display:flex;flex-direction:row;align-items:center;gap:1rem;">
-                <img src="https://i.postimg.cc/L5t22YC4/IMG-20250801-194547.jpg" alt="Your Name" class="profile-img">
-                <div style="display:flex;flex-direction:column;font-size:0.7rem;color:#AAAAAA;gap:0.3rem;"> <i class="fa-solid fa-eye"></i>
-                    <script "type=" text/javascript" src="https://counter.websiteout.com/js/36/0/0/0"></script>
+            <!-- Profile image with visitor counter -->
+            <div class="profile-header">
+                <img src="https://i.postimg.cc/L5t22YC4/IMG-20250801-194547.jpg" alt="Jerome M Abanda" class="profile-img">
+                <div class="visitor-counter">
+                    <i class="fa-solid fa-eye"></i>
+                    <script type="text/javascript" src="https://counter.websiteout.com/js/36/0/0/0"></script>
                 </div>
             </div>
+            
+            <!-- Name and bio -->
             <h1>Jerome M Abanda</h1>
-            <p class="bio" data-aos="fade-right" data-aos-delay="150"> Steal Ideas.</p>
+            <p class="bio" data-aos="fade-right" data-aos-delay="150">Steal Ideas.</p>
+            
+            <!-- Social media links -->
             <div class="social-links" data-aos="fade-down" data-aos-delay="150">
-                <a href="https://github.com/jeryum" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://gitlab.com/jeromeabanda79" target="_blank"><i class="fab fa-gitlab"></i></a>
-                <a href="https://www.tiktok.com/@user97evtu99f999997?_t=ZS-8xgtcf9Ks1i&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="ttps://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.goodreads.com/user/show/168585900-jerome" target="_blank"><i class="fab fa-goodreads"></i></a>
-                <a href="https://www.instagram.com/err_jirum" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/jeryum" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://gitlab.com/jeromeabanda79" target="_blank" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                <a href="https://www.tiktok.com/@user97evtu99f999997?_t=ZS-8xgtcf9Ks1i&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.goodreads.com/user/show/168585900-jerome" target="_blank" aria-label="Goodreads"><i class="fab fa-goodreads"></i></a>
+                <a href="https://www.instagram.com/err_jirum" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
-              <div class="arrow-down-animation" id="scroll-arrow">
-  <span>v</span>
-  <span>V</span>
-  <span>V</span>
-</div>
+            
+            <!-- Animated scroll indicator -->
+            <div class="arrow-down-animation" id="scroll-arrow">
+                <span>v</span>
+                <span>V</span>
+                <span>V</span>
+            </div>
         </header>
         
+        <!-- Projects section -->
         <section>
+            <!-- Section header with personality type indicator -->
+            <div class="section-header">
+                <img id="personality-icon" src="https://i.ibb.co/bjQB0cf9/1758786060287.png" alt="INTJ Personality">
+                <h2>Fun Projects</h2>
+            </div>
             
-           <div class="intj">
-               <img id="in" src="https://i.ibb.co/bjQB0cf9/1758786060287.png">
-             <h2>Fun Projects</h2>
-                           </div>
-                             
+            <!-- Projects grid -->
             <div class="projects-grid" id="target">
+                
+                <!-- Project 1: Lism -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-                    <img src="https://i.ibb.co/pBDmfQm8/IMG-20250701-215305.jpg" alt="Project 1" class="project-img">
+                    <img src="https://i.ibb.co/pBDmfQm8/IMG-20250701-215305.jpg" alt="Lism Project Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">lism</h3>
-                        <p class="project-desc"> A personal tracker for everything I watch and read — movies, anime, books, and more. Updated randomly. built for fun. ( vercel.app ) </p>
+                        <p class="project-desc">A personal tracker for everything I watch and read — movies, anime, books, and more. Updated randomly. Built for fun. (vercel.app)</p>
                         <div class="project-links">
-                            <a href="https://lism.vercel.app" target="#">Live Demo</a>
-                            <a href="https://github.com/jeryum/lism">source code</a>
-                            <div>
-                                <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i>
-                                
-   
+                            <a href="https://lism.vercel.app" target="_blank">Live Demo</a>
+                            <a href="https://github.com/jeryum/lism">Source Code</a>
+                            <div class="tech-stack">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
-                <!--  -->
+                
+                <!-- Project 2: Pym -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-                    <img src="https://i.ibb.co/LDcmkFjP/Screenshot-2025-07-02-09-09-20-942-com-android-chrome-edit.jpg" alt="Project 0" class="project-img">
+                    <img src="https://i.ibb.co/LDcmkFjP/Screenshot-2025-07-02-09-09-20-942-com-android-chrome-edit.jpg" alt="Pym Project Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">pym</h3>
-                        <p class="project-desc"> Secure password manager with celebration page generator using Flask and encryption </p>
+                        <p class="project-desc">Secure password manager with celebration page generator using Flask and encryption</p>
                         <div class="project-links">
-                            <a href="https://github.com/jeryum/pym" target="_blank">source code</a>
-                            <div>
-                                <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-python"></i>
+                            <a href="https://github.com/jeryum/pym" target="_blank">Source Code</a>
+                            <div class="tech-stack">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js"></i>
+                                <i class="fab fa-python"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                      <!--  -->
+                
+                <!-- Project 3: Techlink -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
-                    <img src="https://i.ibb.co/G4qSVkYX/IMG-20251128-105627.jpg" alt="project-img" class="project-img">
+                    <img src="https://i.ibb.co/G4qSVkYX/IMG-20251128-105627.jpg" alt="Techlink Project Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">Techlink</h3>
-                        <p class="project-desc"> ssp subj 1st sem college project </p>
+                        <p class="project-desc">SSP subject 1st semester college project</p>
                         <div class="project-links">
-                            <a href="https://ssp-techlink.vercel.app/" target="_blank">Live Demo</a> <a href="https://github.com/jeryum/techlink-ssp">source code</a>
-                            <div>
-        
-                                <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-node-js"></i><i class="fab fa-css3-alt"></i>
+                            <a href="https://ssp-techlink.vercel.app/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/jeryum/techlink-ssp">Source Code</a>
+                            <div class="tech-stack">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-node-js"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  -->
-                <!--  -->
                 
+                <!-- Project 4: Clock -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-                    <img src="https://i.ibb.co/V7Xc8GR/Screenshot-2025-07-08-15-31-01-949-com-android-chrome-edit.jpg" alt="Project 0" class="project-img">
+                    <img src="https://i.ibb.co/V7Xc8GR/Screenshot-2025-07-08-15-31-01-949-com-android-chrome-edit.jpg" alt="Clock Project Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">clock</h3>
-                        <p class="project-desc"> Simple analog clock with count-up timer and time display, ( neocities.org ) </p>
+                        <p class="project-desc">Simple analog clock with count-up timer and time display (neocities.org)</p>
                         <div class="project-links">
                             <a href="https://hexczz.neocities.org" target="_blank">Live Demo</a>
-                            <div>
-                                <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i>
+                            <div class="tech-stack">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                
+                <!-- Project 5: Portfolio 2 -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
-                    <img src="https://i.postimg.cc/sg863Swm/Screenshot-2025-07-04-20-45-28-053-com-android-chrome-edit.jpg" alt="project-img" class="project-img">
+                    <img src="https://i.postimg.cc/sg863Swm/Screenshot-2025-07-04-20-45-28-053-com-android-chrome-edit.jpg" alt="Portfolio 2 Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">portfolio 2</h3>
-                        <p class="project-desc"> portfolio using vuejs ( github.io ) </p>
+                        <p class="project-desc">Portfolio using Vue.js (github.io)</p>
                         <div class="project-links">
-                            <a href="http://jerome-abanda.github.io" target="_blank">Live Demo</a> <a href="https://github.com/jerome-abanda/jerome-abanda.github.io/tree/main/jerome-abanda.github.io">source code</a>
-                            <div>
+                            <a href="http://jerome-abanda.github.io" target="_blank">Live Demo</a>
+                            <a href="https://github.com/jerome-abanda/jerome-abanda.github.io/tree/main/jerome-abanda.github.io">Source Code</a>
+                            <div class="tech-stack">
                                 <i class="fab fa-vuejs"></i>
-                                <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-node-js"></i>
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-node-js"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                
+                <!-- Project 6: ICT -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUE18lmPrVAdWgesyk6MKfw5l4_Kqi1dq4-lFxX7Kcw5JJHV6mD-zVvwx&s=10" alt="Project 2" class="project-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUE18lmPrVAdWgesyk6MKfw5l4_Kqi1dq4-lFxX7Kcw5JJHV6mD-zVvwx&s=10" alt="ICT Project Screenshot" class="project-img">
                     <div class="project-info">
                         <h3 class="project-title">ict</h3>
-                        <p class="project-desc"> Some of my senior web highschool projects ( vercel.app ) </p>
+                        <p class="project-desc">Some of my senior web highschool projects (vercel.app)</p>
                         <div class="project-links">
                             <a href="https://ictsh.vercel.app" target="_blank">Live Demo</a>
-                            <a href="https://github.com/jeryum/ictsh" target="_blank"> source code </a>
-                            <div id="2">
-                                <i class="fab fa-node-js"></i><i class="fab fa-php"></i></i> <i class="fab fa-vuejs"></i>
+                            <a href="https://github.com/jeryum/ictsh" target="_blank">Source Code</a>
+                            <div class="tech-stack">
+                                <i class="fab fa-node-js"></i>
+                                <i class="fab fa-php"></i>
+                                <i class="fab fa-vuejs"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                
             </div>
         </section>
     </div>
-   <footer>
+    
+    <!-- Footer section -->
+    <footer>
         <div class="footer-container">
             <a href="mailto:jeromeabanda79@example.com" class="contact-btn">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                     <polyline points="22,6 12,13 2,6"></polyline>
-                </svg> Contact Me
+                </svg>
+                Contact Me
             </a>
             <div class="copyright">
                 &copy; <span id="year"></span> Jerome M Abanda. All rights reserved.
             </div>
         </div>
     </footer>
+    
+    <!-- External JavaScript libraries -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="script.js"></script>
 </body>
 
