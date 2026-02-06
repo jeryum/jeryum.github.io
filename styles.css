@@ -44,6 +44,22 @@ body {
     line-height: 1.6;
 }
 
+/* Smooth transitions */
+.page-section {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Active navigation */
+.nav-item.active {
+    color: #2080aa !important;
+}
+
+/* Skill bars animation fix */
+.skill-progress {
+    transition: width 1s ease-in-out !important;
+}
+
 /* ==================== LAYOUT & CONTAINERS ==================== */
 .container {
     max-width: 1200px;
