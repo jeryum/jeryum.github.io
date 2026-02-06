@@ -45,61 +45,19 @@ body {
 }
 
 /* Smooth transitions */
-/* Add these to your existing styles.css */
-
-/* SPA Section Transitions */
 .page-section {
-    display: none;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease;
 }
 
-.page-section.active {
-    display: block;
-    opacity: 1;
-}
-
-/* Navigation active state */
+/* Active navigation */
 .nav-item.active {
     color: #2080aa !important;
 }
 
-.nav-item.active i {
-    color: #2080aa !important;
-}
-
-/* Skill bars animation */
+/* Skill bars animation fix */
 .skill-progress {
     transition: width 1s ease-in-out !important;
-}
-
-/* Mobile menu */
-.nav-menu.active {
-    display: flex !important;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--color-dark-1);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-}
-
-/* Smooth scrolling for SPA */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Loading state */
-.profile-img {
-    transition: opacity 0.3s ease;
-}
-
-.profile-img.loading {
-    opacity: 0.5;
 }
 
 /* ==================== LAYOUT & CONTAINERS ==================== */
