@@ -8,8 +8,11 @@ AOS.init({
     duration: 800,
     offset: 100,
     easing: 'ease-in-out',
-    once: false // Changed to false for section switching
+    once: false
 });
+
+// Track history for mobile back button
+let historyStack = ['home']; // Start with home in history
 
 // DOM Ready event listener
 document.addEventListener('DOMContentLoaded', function() {
@@ -19,21 +22,35 @@ document.addEventListener('DOMContentLoaded', function() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
     
-    // Set default active section (Home)
-    showSection('home');
+    // Check URL hash on load
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+        showSection(hash);
+        updateNavActive(hash);
+    } else {
+        showSection('home');
+        updateNavActive('home');
+    }
     
-    // Navigation click handlers
+    // Navigation click handlers - IMPORTANT: Updated to prevent default
     navItems.forEach(item => {
         item.addEventListener('click', function(e) {
-            e.preventDefault();
+            e.preventDefault(); // Prevent default anchor behavior
             const target = this.getAttribute('data-target');
             
             // Update active nav item
-            navItems.forEach(nav => nav.classList.remove('active'));
-            this.classList.add('active');
+            updateNavActive(target);
             
             // Show target section
             showSection(target);
+            
+            // Add to history stack
+            if (historyStack[historyStack.length - 1] !== target) {
+                historyStack.push(target);
+            }
+            
+            // Update URL hash WITHOUT adding to browser history
+            updateHashWithoutHistory(target);
             
             // Close mobile menu if open
             if (navMenu.classList.contains('active')) {
@@ -54,6 +71,53 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
+    // ==================== HISTORY MANAGEMENT FOR MOBILE BACK BUTTON ====================
+    
+    // Function to update hash without adding to browser history
+    function updateHashWithoutHistory(sectionId) {
+        // Using history.replaceState to change URL without adding to history
+        history.replaceState(null, null, `#${sectionId}`);
+    }
+    
+    // Handle browser back/forward buttons
+    window.addEventListener('popstate', function(e) {
+        // When back button is pressed
+        const hash = window.location.hash.substring(1) || 'home';
+        
+        // Pop from history stack
+        if (historyStack.length > 1) {
+            historyStack.pop(); // Remove current
+            const previousSection = historyStack[historyStack.length - 1];
+            
+            // Show previous section
+            showSection(previousSection);
+            updateNavActive(previousSection);
+        } else {
+            // If stack is empty, go to home
+            showSection('home');
+            updateNavActive('home');
+        }
+    });
+    
+    // Also handle hashchange for direct URL access
+    window.addEventListener('hashchange', function() {
+        const hash = window.location.hash.substring(1) || 'home';
+        if (historyStack[historyStack.length - 1] !== hash) {
+            historyStack.push(hash);
+            showSection(hash);
+            updateNavActive(hash);
+        }
+    });
+    
+    // Update navigation active state
+    function updateNavActive(target) {
+        navItems.forEach(nav => nav.classList.remove('active'));
+        const activeNav = document.querySelector(`.nav-item[data-target="${target}"]`);
+        if (activeNav) {
+            activeNav.classList.add('active');
+        }
+    }
+    
     // ==================== SECTION MANAGEMENT ====================
     function showSection(sectionId) {
         // Hide all sections
@@ -69,11 +133,13 @@ document.addEventListener('DOMContentLoaded', function() {
             targetSection.classList.add('active');
             targetSection.style.display = 'block';
             
-            // Scroll to top
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
+            // Scroll to top of section
+            setTimeout(() => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }, 100);
             
             // Reinitialize AOS for new content
             setTimeout(() => {
@@ -87,22 +153,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     }, 300);
                 }
             }, 100);
-            
-            // Update browser history
-            history.pushState(null, null, `#${sectionId}`);
         }
     }
-    
-    // Handle browser back/forward buttons
-    window.addEventListener('popstate', function() {
-        const hash = window.location.hash.substring(1) || 'home';
-        const targetItem = document.querySelector(`.nav-item[data-target="${hash}"]`);
-        if (targetItem) {
-            navItems.forEach(nav => nav.classList.remove('active'));
-            targetItem.classList.add('active');
-            showSection(hash);
-        }
-    });
     
     // ==================== CONTACT FORM HANDLING ====================
     const contactForm = document.getElementById('contactForm');
@@ -269,13 +321,16 @@ document.addEventListener('DOMContentLoaded', function() {
         skillBars.forEach(bar => {
             // Store original width if not already stored
             if (!bar.getAttribute('data-original-width')) {
-                const computedWidth = getComputedStyle(bar).width;
-                if (computedWidth !== '0px') {
-                    bar.setAttribute('data-original-width', computedWidth);
+                const style = bar.getAttribute('style');
+                if (style) {
+                    const widthMatch = style.match(/width:\s*(\d+%)/);
+                    if (widthMatch) {
+                        bar.setAttribute('data-original-width', widthMatch[1]);
+                    }
                 }
             }
             bar.style.width = '0%';
-            bar.style.transition = 'none'; // Disable transition for reset
+            bar.style.transition = 'none';
         });
     }
     
@@ -296,11 +351,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Get original width
             let targetWidth = bar.getAttribute('data-original-width');
             
-            // If no data-original-width, try to get from inline style
-            if (!targetWidth || targetWidth === '0px') {
-                const inlineStyle = bar.getAttribute('style');
-                if (inlineStyle) {
-                    const widthMatch = inlineStyle.match(/width:\s*(\d+%)/);
+            // If no stored width, use the inline style
+            if (!targetWidth) {
+                const style = bar.getAttribute('style');
+                if (style) {
+                    const widthMatch = style.match(/width:\s*(\d+%)/);
                     if (widthMatch) {
                         targetWidth = widthMatch[1];
                         bar.setAttribute('data-original-width', targetWidth);
@@ -308,43 +363,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
             
-            // If still no width, use default based on skill level
-            if (!targetWidth || targetWidth === '0px') {
-                const skillItem = bar.closest('.skill-item');
-                if (skillItem) {
-                    const skillLevel = skillItem.querySelector('.skill-level');
-                    if (skillLevel) {
-                        const levelText = skillLevel.textContent.toLowerCase();
-                        const levelMap = {
-                            'beginner': '30%',
-                            'basic': '40%',
-                            'intermediate': '70%',
-                            'advanced': '85%',
-                            'expert': '95%',
-                            'master': '100%'
-                        };
-                        
-                        for (const [level, percentage] of Object.entries(levelMap)) {
-                            if (levelText.includes(level)) {
-                                targetWidth = percentage;
-                                bar.setAttribute('data-original-width', targetWidth);
-                                break;
-                            }
-                        }
-                    }
-                }
-            }
-            
-            // Ensure we have a target width
-            if (!targetWidth || targetWidth === '0px') {
-                targetWidth = '50%'; // Default fallback
+            // Default fallback if still no width
+            if (!targetWidth) {
+                targetWidth = '50%';
                 bar.setAttribute('data-original-width', targetWidth);
             }
             
             // Animate with delay for staggered effect
             setTimeout(() => {
                 bar.style.width = targetWidth;
-            }, index * 100); // Stagger animation
+            }, index * 100);
         });
     }
     
@@ -432,23 +460,36 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        /* Skill bar transition override */
+        /* Skill bar transition */
         .skill-progress {
             transition: width 1s ease-in-out !important;
         }
+        
+        /* Smooth transitions for sections */
+        .page-section {
+            transition: opacity 0.3s ease;
+        }
     `;
     document.head.appendChild(style);
+    
+    // ==================== FIX LINKS WITH ONCLICK ====================
+    // Update your CTA buttons to use the new navigation system
+    const ctaButtons = document.querySelectorAll('.cta-btn');
+    ctaButtons.forEach(button => {
+        const href = button.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = href.substring(1);
+            button.onclick = function(e) {
+                e.preventDefault();
+                showSection(target);
+                updateNavActive(target);
+                if (historyStack[historyStack.length - 1] !== target) {
+                    historyStack.push(target);
+                }
+                updateHashWithoutHistory(target);
+            };
+        }
+    });
     
     // ==================== INITIALIZE FEATURES ====================
     setupContactCopy();
@@ -468,26 +509,36 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add keyboard navigation for sections
     document.addEventListener('keydown', function(e) {
         if (e.altKey) {
+            let targetSection = 'home';
             switch(e.key) {
                 case '1':
-                    showSection('home');
+                    targetSection = 'home';
                     break;
                 case '2':
-                    showSection('about');
+                    targetSection = 'about';
                     break;
                 case '3':
-                    showSection('projects');
+                    targetSection = 'projects';
                     break;
                 case '4':
-                    showSection('contact');
+                    targetSection = 'contact';
                     break;
+                default:
+                    return;
             }
+            
+            showSection(targetSection);
+            updateNavActive(targetSection);
+            if (historyStack[historyStack.length - 1] !== targetSection) {
+                historyStack.push(targetSection);
+            }
+            updateHashWithoutHistory(targetSection);
         }
     });
     
     // Console greeting
     console.log('🚀 Single Page Portfolio loaded successfully!');
+    console.log('📱 Mobile back button support: ACTIVE');
     console.log('👨‍💻 Developer: Jerome M Abanda');
     console.log('🎮 Navigation: Alt + 1/2/3/4 to switch sections');
-    console.log('📧 Email: jeromeabanda79@gmail.com');
 });
