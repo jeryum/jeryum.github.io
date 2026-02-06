@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jerome M Abanda | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #0a192f;
+            color: #ccd6f6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #64ffda;
+        }
+        a {
+            color: #64ffda;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 1px solid #64ffda;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: rgba(100, 255, 218, 0.1);
+        }
+    </style>
+    <script>
+        // Automatic redirect to main page with hash preservation
+        setTimeout(function() {
+            const path = window.location.pathname;
+            if (path && path !== '/' && path !== '/index.html') {
+                // Convert path like /about to hash #about
+                const page = path.split('/').pop().replace('.html', '');
+                if (page && page !== '404') {
+                    window.location.href = '/index.html#' + page;
+                } else {
+                    window.location.href = '/index.html';
+                }
+            } else {
+                window.location.href = '/index.html';
+            }
+        }, 100);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting to Portfolio...</h1>
+        <p>Please wait while we redirect you to the main portfolio page.</p>
+        <p>If you are not redirected automatically, <a href="/index.html">click here</a>.</p>
+    </div>
+</body>
+</html>

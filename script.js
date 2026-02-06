@@ -1,9 +1,10 @@
 /**
- * PORTFOLIO SCRIPT
- * Handles SPA navigation, animations, and dynamic content
+ * PORTFOLIO SCRIPT for GitHub Pages
+ * Compatible with jeryum.github.io
+ * Simplified SPA with proper back button handling
  */
 
-// Initialize AOS (Animate On Scroll) library
+// Initialize AOS
 AOS.init({
     duration: 800,
     offset: 100,
@@ -11,51 +12,47 @@ AOS.init({
     once: false
 });
 
-// Track history for mobile back button
-let historyStack = ['home']; // Start with home in history
-
 // DOM Ready event listener
 document.addEventListener('DOMContentLoaded', function() {
     
-    // ==================== NAVIGATION MANAGEMENT ====================
+    // ==================== GITHUB PAGES SPA ROUTING ====================
     const navItems = document.querySelectorAll('.nav-item');
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
     
-    // Check URL hash on load
-    const hash = window.location.hash.substring(1);
-    if (hash) {
-        showSection(hash);
-        updateNavActive(hash);
-    } else {
-        showSection('home');
-        updateNavActive('home');
-    }
+    // Navigation history stack
+    let historyStack = ['home'];
+    let isPopState = false;
     
-    // Navigation click handlers - IMPORTANT: Updated to prevent default
+    // Initialize based on current hash
+    const initialHash = window.location.hash.substring(1) || 'home';
+    showSection(initialHash, false);
+    updateNavActive(initialHash);
+    updateHashWithoutHistory(initialHash);
+    
+    // ==================== NAVIGATION HANDLERS ====================
+    
+    // Main navigation click
     navItems.forEach(item => {
         item.addEventListener('click', function(e) {
-            e.preventDefault(); // Prevent default anchor behavior
+            e.preventDefault();
             const target = this.getAttribute('data-target');
             
-            // Update active nav item
-            updateNavActive(target);
-            
-            // Show target section
-            showSection(target);
-            
-            // Add to history stack
-            if (historyStack[historyStack.length - 1] !== target) {
+            // Add to history for back button
+            if (!isPopState && historyStack[historyStack.length - 1] !== target) {
                 historyStack.push(target);
             }
+            isPopState = false;
             
-            // Update URL hash WITHOUT adding to browser history
+            // Update URL without adding to browser history
             updateHashWithoutHistory(target);
             
-            // Close mobile menu if open
-            if (navMenu.classList.contains('active')) {
-                navMenu.classList.remove('active');
-            }
+            // Update UI
+            showSection(target, true);
+            updateNavActive(target);
+            
+            // Close mobile menu
+            navMenu.classList.remove('active');
         });
     });
     
@@ -64,52 +61,48 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.classList.toggle('active');
     });
     
-    // Close menu when clicking outside
+    // Close mobile menu when clicking outside
     document.addEventListener('click', function(e) {
         if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
             navMenu.classList.remove('active');
         }
     });
     
-    // ==================== HISTORY MANAGEMENT FOR MOBILE BACK BUTTON ====================
+    // ==================== HASH CHANGE HANDLER ====================
     
-    // Function to update hash without adding to browser history
-    function updateHashWithoutHistory(sectionId) {
-        // Using history.replaceState to change URL without adding to history
-        history.replaceState(null, null, `#${sectionId}`);
-    }
-    
-    // Handle browser back/forward buttons
-    window.addEventListener('popstate', function(e) {
-        // When back button is pressed
-        const hash = window.location.hash.substring(1) || 'home';
-        
-        // Pop from history stack
-        if (historyStack.length > 1) {
-            historyStack.pop(); // Remove current
-            const previousSection = historyStack[historyStack.length - 1];
-            
-            // Show previous section
-            showSection(previousSection);
-            updateNavActive(previousSection);
-        } else {
-            // If stack is empty, go to home
-            showSection('home');
-            updateNavActive('home');
-        }
-    });
-    
-    // Also handle hashchange for direct URL access
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash.substring(1) || 'home';
-        if (historyStack[historyStack.length - 1] !== hash) {
+        
+        // Check if this is a back/forward navigation
+        const isBackNavigation = historyStack.length > 1 && 
+                                historyStack[historyStack.length - 2] === hash;
+        
+        if (isBackNavigation) {
+            // Back button pressed
+            historyStack.pop();
+            isPopState = true;
+        } else if (historyStack[historyStack.length - 1] !== hash) {
+            // New navigation
             historyStack.push(hash);
-            showSection(hash);
-            updateNavActive(hash);
         }
+        
+        showSection(hash, true);
+        updateNavActive(hash);
     });
     
-    // Update navigation active state
+    // ==================== HELPER FUNCTIONS ====================
+    
+    // Update URL hash without adding to browser history
+    function updateHashWithoutHistory(sectionId) {
+        // For GitHub Pages compatibility
+        if (history.replaceState) {
+            history.replaceState(null, null, `#${sectionId}`);
+        } else {
+            window.location.hash = `#${sectionId}`;
+        }
+    }
+    
+    // Update active navigation item
     function updateNavActive(target) {
         navItems.forEach(nav => nav.classList.remove('active'));
         const activeNav = document.querySelector(`.nav-item[data-target="${target}"]`);
@@ -118,13 +111,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // ==================== SECTION MANAGEMENT ====================
-    function showSection(sectionId) {
+    // Show section with animation
+    function showSection(sectionId, animate = true) {
+        // Don't do anything if already on this section
+        const currentActive = document.querySelector('.page-section.active');
+        if (currentActive && currentActive.id === sectionId) return;
+        
         // Hide all sections
         const sections = document.querySelectorAll('.page-section');
         sections.forEach(section => {
             section.classList.remove('active');
             section.style.display = 'none';
+            section.style.opacity = '0';
         });
         
         // Show selected section
@@ -133,119 +131,164 @@ document.addEventListener('DOMContentLoaded', function() {
             targetSection.classList.add('active');
             targetSection.style.display = 'block';
             
-            // Scroll to top of section
-            setTimeout(() => {
+            if (animate) {
+                // Fade in animation
+                setTimeout(() => {
+                    targetSection.style.transition = 'opacity 0.3s ease';
+                    targetSection.style.opacity = '1';
+                }, 10);
+            } else {
+                targetSection.style.opacity = '1';
+            }
+            
+            // Scroll to top
+            if (animate) {
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 });
-            }, 100);
+            } else {
+                window.scrollTo(0, 0);
+            }
             
             // Reinitialize AOS for new content
             setTimeout(() => {
                 AOS.refresh();
+                
                 // Animate skill bars if in About section
                 if (sectionId === 'about') {
-                    // Reset and animate skill bars
                     resetSkillBars();
                     setTimeout(() => {
                         animateSkillBars();
                     }, 300);
                 }
+                
+                // Update CTA buttons
+                updateCTALinks();
             }, 100);
         }
     }
     
-    // ==================== CONTACT FORM HANDLING ====================
+    // ==================== SKILL BARS ANIMATION ====================
+    
+    function resetSkillBars() {
+        const skillBars = document.querySelectorAll('.skill-progress');
+        skillBars.forEach(bar => {
+            bar.style.width = '0%';
+            bar.style.transition = 'none';
+        });
+    }
+    
+    function animateSkillBars() {
+        const skillBars = document.querySelectorAll('.skill-progress');
+        skillBars.forEach((bar, index) => {
+            // Get target width from inline style
+            const style = bar.getAttribute('style');
+            let targetWidth = '50%'; // Default
+            
+            if (style) {
+                const match = style.match(/width:\s*(\d+%)/);
+                if (match) {
+                    targetWidth = match[1];
+                }
+            }
+            
+            // Animate with delay
+            setTimeout(() => {
+                bar.style.transition = 'width 1s ease-in-out';
+                bar.style.width = targetWidth;
+            }, index * 100);
+        });
+    }
+    
+    // ==================== UPDATE CTA BUTTONS ====================
+    
+    function updateCTALinks() {
+        // Update all internal links to use SPA navigation
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            if (!link.classList.contains('nav-link')) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = this.getAttribute('href').substring(1);
+                    
+                    // Add to history
+                    if (historyStack[historyStack.length - 1] !== target) {
+                        historyStack.push(target);
+                    }
+                    
+                    // Update URL
+                    updateHashWithoutHistory(target);
+                    
+                    // Update UI
+                    showSection(target, true);
+                    updateNavActive(target);
+                });
+            }
+        });
+    }
+    
+    // Initialize CTA links
+    updateCTALinks();
+    
+    // ==================== CONTACT FORM ====================
+    
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Get form data
-            const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                subject: document.getElementById('subject').value,
-                message: document.getElementById('message').value
-            };
+            // Show success message
+            showNotification('Message sent successfully! (Demo mode)', 'success');
             
-            // In a real application, you would send this to a server
-            // For now, we'll show a success message
-            showNotification('Message sent successfully! (This is a demo)', 'success');
-            
-            // Clear form
-            contactForm.reset();
+            // Reset form
+            this.reset();
             
             // Reset labels
-            const labels = contactForm.querySelectorAll('label');
-            labels.forEach(label => {
+            this.querySelectorAll('label').forEach(label => {
                 label.style.top = '1rem';
                 label.style.fontSize = '1rem';
                 label.style.color = 'var(--color-text-2)';
             });
         });
-    }
-    
-    // Form input label animation
-    const formInputs = document.querySelectorAll('.form-group input, .form-group textarea');
-    formInputs.forEach(input => {
-        input.addEventListener('focus', function() {
-            const label = this.nextElementSibling;
-            if (label && label.tagName === 'LABEL') {
-                label.style.top = '-0.5rem';
-                label.style.fontSize = '0.8rem';
-                label.style.color = '#2080aa';
-            }
-        });
         
-        input.addEventListener('blur', function() {
-            if (!this.value) {
+        // Form input animations
+        const formInputs = contactForm.querySelectorAll('input, textarea');
+        formInputs.forEach(input => {
+            input.addEventListener('focus', function() {
                 const label = this.nextElementSibling;
                 if (label && label.tagName === 'LABEL') {
-                    label.style.top = '1rem';
-                    label.style.fontSize = '1rem';
-                    label.style.color = 'var(--color-text-2)';
+                    label.style.top = '-0.5rem';
+                    label.style.fontSize = '0.8rem';
+                    label.style.color = '#2080aa';
                 }
-            }
+            });
+            
+            input.addEventListener('blur', function() {
+                if (!this.value) {
+                    const label = this.nextElementSibling;
+                    if (label && label.tagName === 'LABEL') {
+                        label.style.top = '1rem';
+                        label.style.fontSize = '1rem';
+                        label.style.color = 'var(--color-text-2)';
+                    }
+                }
+            });
         });
-    });
-    
-    // ==================== SET CURRENT YEAR IN FOOTER ====================
-    const yearElement = document.getElementById('year');
-    if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
     }
     
-    // ==================== PARTICLES.JS CONFIGURATION ====================
+    // ==================== PARTICLES.JS ====================
+    
     if (typeof particlesJS !== 'undefined') {
         particlesJS('particles-js', {
             particles: {
                 number: {
                     value: 80,
-                    density: {
-                        enable: true,
-                        value_area: 800
-                    }
+                    density: { enable: true, value_area: 800 }
                 },
-                color: {
-                    value: ["#2080aa", "#8020aa"]
-                },
-                shape: {
-                    type: "circle",
-                    stroke: {
-                        width: 0,
-                        color: "#000000"
-                    }
-                },
-                opacity: {
-                    value: 0.5,
-                    random: false
-                },
-                size: {
-                    value: 3,
-                    random: true
-                },
+                color: { value: ["#2080aa", "#8020aa"] },
+                shape: { type: "circle" },
+                opacity: { value: 0.5 },
+                size: { value: 3, random: true },
                 line_linked: {
                     enable: true,
                     distance: 150,
@@ -257,188 +300,80 @@ document.addEventListener('DOMContentLoaded', function() {
                     enable: true,
                     speed: 2,
                     direction: "none",
-                    random: false,
-                    straight: false,
                     out_mode: "out"
                 }
             },
             interactivity: {
                 detect_on: "canvas",
                 events: {
-                    onhover: {
-                        enable: true,
-                        mode: "grab"
-                    },
-                    onclick: {
-                        enable: true,
-                        mode: "push"
-                    },
+                    onhover: { enable: true, mode: "grab" },
+                    onclick: { enable: true, mode: "push" },
                     resize: true
-                },
-                modes: {
-                    grab: {
-                        distance: 140,
-                        line_linked: {
-                            opacity: 1
-                        }
-                    },
-                    push: {
-                        particles_nb: 4
-                    }
                 }
             },
             retina_detect: true
         });
     }
     
-    // ==================== COPY CONTACT INFO ON CLICK ====================
-    function setupContactCopy() {
-        const contactItems = document.querySelectorAll('.info-value a, .contact-link, .contact-item a');
-        
-        contactItems.forEach(item => {
-            item.addEventListener('click', function(e) {
-                // Only copy on middle-click or Ctrl+Click
-                if (e.ctrlKey || e.button === 1) {
-                    e.preventDefault();
-                    
-                    const textToCopy = this.textContent;
-                    navigator.clipboard.writeText(textToCopy).then(() => {
-                        showNotification(`Copied: ${textToCopy}`);
-                    });
-                }
-            });
-            
-            // Add title for copy hint
-            item.setAttribute('title', 'Ctrl+Click to copy');
-        });
-    }
+    // ==================== COPY FUNCTIONALITY ====================
     
-    // ==================== SKILL BARS ANIMATION ====================
-    
-    // Function to reset skill bars to 0%
-    function resetSkillBars() {
-        const skillBars = document.querySelectorAll('.skill-progress');
-        skillBars.forEach(bar => {
-            // Store original width if not already stored
-            if (!bar.getAttribute('data-original-width')) {
-                const style = bar.getAttribute('style');
-                if (style) {
-                    const widthMatch = style.match(/width:\s*(\d+%)/);
-                    if (widthMatch) {
-                        bar.setAttribute('data-original-width', widthMatch[1]);
-                    }
-                }
+    document.querySelectorAll('.contact-item a').forEach(item => {
+        item.addEventListener('click', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+                const text = this.textContent || this.getAttribute('href').replace('mailto:', '').replace('tel:', '');
+                navigator.clipboard.writeText(text).then(() => {
+                    showNotification(`Copied: ${text}`);
+                });
             }
-            bar.style.width = '0%';
-            bar.style.transition = 'none';
         });
-    }
+        item.title = 'Ctrl+Click to copy';
+    });
     
-    // Function to animate skill bars
-    function animateSkillBars() {
-        const skillBars = document.querySelectorAll('.skill-progress');
-        const aboutSection = document.getElementById('about');
-        
-        // Check if we're in the about section
-        if (!aboutSection || getComputedStyle(aboutSection).display === 'none') {
-            return;
-        }
-        
-        skillBars.forEach((bar, index) => {
-            // Enable transition
-            bar.style.transition = 'width 1s ease-in-out';
-            
-            // Get original width
-            let targetWidth = bar.getAttribute('data-original-width');
-            
-            // If no stored width, use the inline style
-            if (!targetWidth) {
-                const style = bar.getAttribute('style');
-                if (style) {
-                    const widthMatch = style.match(/width:\s*(\d+%)/);
-                    if (widthMatch) {
-                        targetWidth = widthMatch[1];
-                        bar.setAttribute('data-original-width', targetWidth);
-                    }
-                }
-            }
-            
-            // Default fallback if still no width
-            if (!targetWidth) {
-                targetWidth = '50%';
-                bar.setAttribute('data-original-width', targetWidth);
-            }
-            
-            // Animate with delay for staggered effect
-            setTimeout(() => {
-                bar.style.width = targetWidth;
-            }, index * 100);
-        });
-    }
+    // ==================== CURRENT YEAR ====================
     
-    // Observe skills section for animation
-    function observeSkillsSection() {
-        const skillsSection = document.querySelector('.skills-section');
-        if (!skillsSection) return;
-        
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    resetSkillBars();
-                    setTimeout(() => {
-                        animateSkillBars();
-                    }, 300);
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, {
-            threshold: 0.2,
-            rootMargin: '0px 0px -50px 0px'
-        });
-        
-        observer.observe(skillsSection);
+    const yearElement = document.getElementById('year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
     }
     
     // ==================== NOTIFICATION SYSTEM ====================
+    
     function showNotification(message, type = 'info') {
         // Remove existing notification
-        const existingNotification = document.querySelector('.notification');
-        if (existingNotification) {
-            existingNotification.remove();
-        }
+        const existing = document.querySelector('.notification');
+        if (existing) existing.remove();
         
         // Create new notification
         const notification = document.createElement('div');
-        notification.className = `notification ${type}`;
+        notification.className = 'notification';
         notification.textContent = message;
         notification.style.cssText = `
             position: fixed;
-            top: 100px;
+            top: 80px;
             right: 20px;
-            background: ${type === 'success' ? 'linear-gradient(135deg, #4CAF50, #45a049)' : 'linear-gradient(135deg, #2080aa, #8020aa)'};
+            background: ${type === 'success' ? '#4CAF50' : '#2080aa'};
             color: white;
             padding: 12px 20px;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            z-index: 1000;
-            animation: slideIn 0.3s ease;
-            font-size: 0.9rem;
-            max-width: 300px;
+            z-index: 10000;
+            animation: notificationSlideIn 0.3s ease;
         `;
         
         document.body.appendChild(notification);
         
         // Remove after 3 seconds
         setTimeout(() => {
-            notification.style.animation = 'slideOut 0.3s ease';
+            notification.style.animation = 'notificationSlideOut 0.3s ease';
             setTimeout(() => notification.remove(), 300);
         }, 3000);
     }
     
-    // Add animation styles for notifications
+    // Add notification styles
     const style = document.createElement('style');
     style.textContent = `
-        @keyframes slideIn {
+        @keyframes notificationSlideIn {
             from {
                 transform: translateX(100%);
                 opacity: 0;
@@ -449,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
-        @keyframes slideOut {
+        @keyframes notificationSlideOut {
             from {
                 transform: translateX(0);
                 opacity: 1;
@@ -460,85 +395,54 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
-        /* Skill bar transition */
+        /* Skill bar animation */
         .skill-progress {
             transition: width 1s ease-in-out !important;
         }
         
-        /* Smooth transitions for sections */
+        /* Section transitions */
         .page-section {
             transition: opacity 0.3s ease;
         }
     `;
     document.head.appendChild(style);
     
-    // ==================== FIX LINKS WITH ONCLICK ====================
-    // Update your CTA buttons to use the new navigation system
-    const ctaButtons = document.querySelectorAll('.cta-btn');
-    ctaButtons.forEach(button => {
-        const href = button.getAttribute('href');
-        if (href && href.startsWith('#')) {
-            const target = href.substring(1);
-            button.onclick = function(e) {
-                e.preventDefault();
-                showSection(target);
-                updateNavActive(target);
-                if (historyStack[historyStack.length - 1] !== target) {
-                    historyStack.push(target);
-                }
-                updateHashWithoutHistory(target);
-            };
+    // ==================== KEYBOARD SHORTCUTS ====================
+    
+    document.addEventListener('keydown', function(e) {
+        if (e.altKey) {
+            let target;
+            switch(e.key) {
+                case '1': target = 'home'; break;
+                case '2': target = 'about'; break;
+                case '3': target = 'projects'; break;
+                case '4': target = 'contact'; break;
+                default: return;
+            }
+            
+            if (historyStack[historyStack.length - 1] !== target) {
+                historyStack.push(target);
+            }
+            
+            updateHashWithoutHistory(target);
+            showSection(target, true);
+            updateNavActive(target);
         }
     });
     
-    // ==================== INITIALIZE FEATURES ====================
-    setupContactCopy();
-    observeSkillsSection();
+    // ==================== INITIALIZE ON LOAD ====================
     
-    // Initialize skill bars if About section is active on load
-    setTimeout(() => {
-        const activeSection = document.querySelector('.page-section.active');
-        if (activeSection && activeSection.id === 'about') {
+    // Animate skill bars if starting on about page
+    if (initialHash === 'about') {
+        setTimeout(() => {
             resetSkillBars();
             setTimeout(() => {
                 animateSkillBars();
             }, 500);
-        }
-    }, 1000);
+        }, 1000);
+    }
     
-    // Add keyboard navigation for sections
-    document.addEventListener('keydown', function(e) {
-        if (e.altKey) {
-            let targetSection = 'home';
-            switch(e.key) {
-                case '1':
-                    targetSection = 'home';
-                    break;
-                case '2':
-                    targetSection = 'about';
-                    break;
-                case '3':
-                    targetSection = 'projects';
-                    break;
-                case '4':
-                    targetSection = 'contact';
-                    break;
-                default:
-                    return;
-            }
-            
-            showSection(targetSection);
-            updateNavActive(targetSection);
-            if (historyStack[historyStack.length - 1] !== targetSection) {
-                historyStack.push(targetSection);
-            }
-            updateHashWithoutHistory(targetSection);
-        }
-    });
-    
-    // Console greeting
-    console.log('🚀 Single Page Portfolio loaded successfully!');
-    console.log('📱 Mobile back button support: ACTIVE');
+    console.log('🌐 Portfolio loaded for GitHub Pages');
+    console.log('📱 Mobile back button: WORKING');
     console.log('👨‍💻 Developer: Jerome M Abanda');
-    console.log('🎮 Navigation: Alt + 1/2/3/4 to switch sections');
 });
