@@ -4,7 +4,7 @@
 <head>
     <!-- Meta tags and SEO -->
     <meta charset="UTF-8">
-    <meta name="description" content="Official portfolio of Jerome M Abanda. Web developer showcasing projects, skills, and contact information.">
+    <meta name="description" content="Official portfolio of Jerome M Abanda. 18-year-old web developer showcasing projects, skills, and contact information.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Structured data for SEO -->
@@ -13,10 +13,14 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Jerome M Abanda",
+        "birthDate": "2007-12-01",
+        "email": "mailto:jeromeabanda79@gmail.com",
         "url": "https://jeryum.github.io",
         "sameAs": [
             "https://github.com/jeryum"
-        ]
+        ],
+        "jobTitle": "Web Developer",
+        "knowsAbout": ["Web Development", "Frontend Development", "Backend Development", "JavaScript", "Python", "Vue.js"]
     }
     </script>
     
@@ -32,51 +36,325 @@
     <!-- Background particles animation -->
     <div id="particles-js"></div>
     
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+            <!--    <span class="logo"></span>-->
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item active" data-target="home">
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-target="about">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-target="projects">
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-target="contact">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
     <!-- Main content container -->
     <div class="container">
-        <!-- Header section with profile and social links -->
-        <header>
-            <!-- Profile image with visitor counter -->
-            <div class="profile-header">
-                <img src="https://i.postimg.cc/L5t22YC4/IMG-20250801-194547.jpg" alt="Jerome M Abanda" class="profile-img">
-                <div class="visitor-counter">
-                    <i class="fa-solid fa-eye"></i>
-                    <script type="text/javascript" src="https://counter.websiteout.com/js/36/0/0/0"></script>
+        <!-- Home Section (Default) -->
+        <section id="home" class="page-section active">
+            <!-- Header section with profile and social links -->
+            <header>
+                <!-- Profile image with visitor counter -->
+                <div class="profile-header">
+                    <img src="https://i.postimg.cc/L5t22YC4/IMG-20250801-194547.jpg" alt="Jerome M Abanda" class="profile-img">
+                    <div class="visitor-counter">
+                        <i class="fa-solid fa-eye"></i>
+                        <script type="text/javascript" src="https://counter.websiteout.com/js/36/0/0/0"></script>
+                    </div>
+                </div>
+                
+                <!-- Name and tagline -->
+                <h1>Jerome M Abanda</h1>
+                <p class="tagline" data-aos="fade-right" data-aos-delay="150">look first, then leap</p>
+                
+                <!-- Social media links -->
+                <div class="social-links" data-aos="fade-down" data-aos-delay="150">
+                    <a href="https://github.com/jeryum" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://gitlab.com/jeromeabanda79" target="_blank" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                    <a href="https://www.tiktok.com/@user97evtu99f999997?_t=ZS-8xgtcf9Ks1i&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.goodreads.com/user/show/168585900-jerome" target="_blank" aria-label="Goodreads"><i class="fab fa-goodreads"></i></a>
+                    <a href="https://www.instagram.com/err_jirum" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <!-- Quick stats -->
+                <div class="quick-stats" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                
+                <!-- Call to action -->
+                <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#about" class="cta-btn primary" onclick="showSection('about')">
+                        <i class="fas fa-user"></i> View My Profile
+                    </a>
+                    <a href="#projects" class="cta-btn secondary" onclick="showSection('projects')">
+                        <i class="fas fa-code"></i> See My Work
+                    </a>
+                </div>
+            </header>
+        </section>
+        
+        <!-- About Section (Hidden by default) -->
+        <section id="about" class="page-section">
+            <div class="section-header">
+                <img id="personality-icon" src="https://i.ibb.co/bjQB0cf9/1758786060287.png" alt="INTJ Personality">
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="about-container">
+                <!-- Personal Info Card -->
+                <div class="personal-info-card" data-aos="fade-up">
+                    <div class="info-header">
+                        <h3><i class="fas fa-user-circle"></i> Personal Details</h3>
+                    </div>
+                    <div class="info-grid">
+                       
+                        
+                     
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-content">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Philippines</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="info-content">
+                                <span class="info-label">Education</span>
+                                <span class="info-value">BS Information Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bio Paragraph -->
+                <div class="bio-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-quote-left"></i> Who I Am</h3>
+               <p class="bio-text">
+    I am a first-year Information Technology student from the Philippines. I enjoy learning new things, especially coding, and I work on personal projects to improve my skills.
+</p>
+<p class="bio-text">
+    I started learning programming during the pandemic and became more interested in backend development. I also go to the gym and study trading, particularly XAUUSD.
+</p>
+                    <div class="motto">
+                        <i class="fas fa-lightbulb"></i>
+                        <strong>Motto:</strong> "Steal ideas, but make them better."
+                    </div>
                 </div>
             </div>
             
-            <!-- Name and bio -->
-            <h1>Jerome M Abanda</h1>
-            <p class="bio" data-aos="fade-right" data-aos-delay="150">Steal Ideas.</p>
-            
-            <!-- Social media links -->
-            <div class="social-links" data-aos="fade-down" data-aos-delay="150">
-                <a href="https://github.com/jeryum" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://gitlab.com/jeromeabanda79" target="_blank" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
-                <a href="https://www.tiktok.com/@user97evtu99f999997?_t=ZS-8xgtcf9Ks1i&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                <a href="https://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.goodreads.com/user/show/168585900-jerome" target="_blank" aria-label="Goodreads"><i class="fab fa-goodreads"></i></a>
-                <a href="https://www.instagram.com/err_jirum" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <!-- Skills Section -->
+            <div class="skills-section" data-aos="fade-up">
+                <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                <div class="skills-intro">
+                    <p>Continuously evolving skill set with focus on modern web technologies</p>
+                </div>
+                
+                <div class="skills-container">
+                    <!-- Frontend Skills -->
+                    <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3 & Sass</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (ES6+)</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-vuejs"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Vue.js</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend Skills -->
+                    <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3><i class="fas fa-server"></i> Backend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Python & Flask</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-php"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-level">Basic</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Database Design</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools & Others -->
+                    <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-git"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Responsive Design</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-rocket"></i>
+                                <div class="skill-info">
+                                    <span class="skill-name">Deployment</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Learning Now Section -->
+                <div class="learning-section" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-book-open"></i> Currently Learning</h3>
+                    <div class="learning-tags">
+                        <span class="learning-tag">React.js</span>
+                        <span class="learning-tag">TypeScript</span>
+                        <span class="learning-tag">Next.js</span>
+                        <span class="learning-tag">MongoDB</span>
+                        <span class="learning-tag">GraphQL</span>
+                        <span class="learning-tag">Docker</span>
+                    </div>
+                </div>
             </div>
-            
-            <!-- Animated scroll indicator -->
-            <div class="arrow-down-animation" id="scroll-arrow">
-                <span>v</span>
-                <span>V</span>
-                <span>V</span>
-            </div>
-        </header>
+        </section>
         
-        <!-- Projects section -->
-        <section>
-            <!-- Section header with personality type indicator -->
+        <!-- Projects Section (Hidden by default) -->
+        <section id="projects" class="page-section">
             <div class="section-header">
-                <img id="personality-icon" src="https://i.ibb.co/bjQB0cf9/1758786060287.png" alt="INTJ Personality">
-                <h2>Fun Projects</h2>
+                <h2><i class="fas fa-project-diagram"></i> Fun Projects</h2>
+                <p class="section-subtitle">A collection of personal projects that showcase my skills and creativity</p>
             </div>
             
             <!-- Projects grid -->
-            <div class="projects-grid" id="target">
+            <div class="projects-grid">
                 
                 <!-- Project 1: Lism -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
@@ -188,23 +466,121 @@
                 
             </div>
         </section>
+        
+        <!-- Contact Section (Hidden by default) -->
+        <section id="contact" class="page-section">
+            <div class="contact-container">
+                <h2 data-aos="fade-up"><i class="fas fa-envelope"></i> Get In Touch</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Feel free to reach out for collaborations or just to say hello!</p>
+                
+                <div class="contact-content">
+                    <!-- Contact Info -->
+                    <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                        <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:jeromeabanda79@gmail.com">jeromeabanda79@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+639090614778">+63 909 061 4778</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>Philippines</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Response Time</h4>
+                                    <span>Usually within 24 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Media -->
+                        <div class="contact-social">
+                            <h3><i class="fas fa-share-alt"></i> Connect With Me</h3>
+                            <div class="social-icons">
+                                <a href="https://github.com/jeryum" target="_blank" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://ph.linkedin.com/in/jerome-abanda-9a59b223b" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://gitlab.com/jeromeabanda79" target="_blank" class="social-icon">
+                                    <i class="fab fa-gitlab"></i>
+                                </a>
+                                <a href="https://www.instagram.com/err_jirum" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                        <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     
-    <!-- Footer section -->
-    <footer>
-        <div class="footer-container">
-            <a href="mailto:jeromeabanda79@example.com" class="contact-btn">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-                Contact Me
-            </a>
-            <div class="copyright">
-                &copy; <span id="year"></span> Jerome M Abanda. All rights reserved.
+   <!-- Footer section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <!-- Minimal logo/brand -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_5ayj8mlEZ9Dm_zpa11QIdkDV5vCdjXlilc0uU9ingA&s=10" alt="Logo">
+</div>
+                <div class="brand-text">
+                    <span class="brand-name">Jerome M Abanda</span>
+                    <span class="brand-tagline">Web Developer</span>
+                </div>
+            </div>
+        
+            
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                &copy; <span id="year"></span> All rights reserved.
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
     
     <!-- External JavaScript libraries -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
